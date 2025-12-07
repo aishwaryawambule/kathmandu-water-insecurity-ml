@@ -96,22 +96,26 @@ def predict_water_insecurity(lat, lon, district, season, household_size,
 def main():
     print("=== Water Insecurity Prediction Tool ===")
     
-    # Define test cases
+    # Define test cases using actual aquifer locations from the generated data
+    # These coordinates are near specific aquifers with different stress levels
     test_cases = [
         {
             "label": "Case 1: Secure Household (Low Risk)",
-            "lat": 27.72, "lon": 85.38, "district": "Kathmandu", "season": "wet",
+            # Near AQ0077: Low depletion (0.31 m/yr), shallow depth (6.49m)
+            "lat": 27.75, "lon": 85.24, "district": "Bhaktapur", "season": "wet",
             "household_size": 4, "uses_piped": 1, "uses_well": 1, "uses_tanker": 0
         },
         {
             "label": "Case 2: Vulnerable Household (Moderate Risk)",
-            "lat": 27.72, "lon": 85.38, "district": "Kathmandu", "season": "dry",
-            "household_size": 4, "uses_piped": 0, "uses_well": 0, "uses_tanker": 1
+            # Near AQ0003: Moderate depletion (1.71 m/yr), medium depth (24.94m)
+            "lat": 27.75, "lon": 85.28, "district": "Bhaktapur", "season": "dry",
+            "household_size": 6, "uses_piped": 0, "uses_well": 0, "uses_tanker": 1
         },
         {
             "label": "Case 3: Critical Zone (High Risk)",
-            "lat": 27.769, "lon": 85.302, "district": "Kathmandu", "season": "dry",
-            "household_size": 6, "uses_piped": 0, "uses_well": 0, "uses_tanker": 1
+            # Near AQ0073: CRITICAL - Very high depletion (3.15 m/yr), deep water table (51.05m)
+            "lat": 27.60, "lon": 85.30, "district": "Kathmandu", "season": "dry",
+            "household_size": 8, "uses_piped": 0, "uses_well": 0, "uses_tanker": 1
         }
     ]
 
