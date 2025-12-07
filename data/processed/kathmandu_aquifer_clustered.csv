@@ -1,0 +1,501 @@
+aquifer_id,lat,lon,district,well_type,well_depth_m,water_table_depth_m,transmissivity_m2_per_day,hydraulic_conductivity_m_per_day,aquifer_thickness_m,tds_mg_per_L,nitrate_mg_per_L,fluoride_mg_per_L,pH,land_use,season,depletion_rate_m_per_year,years_depleting,aquifer_cluster,cluster_name
+AQ0001,27.674908,85.437679,Lalitpur,shallow_tube,36.49,13.36,744.9,20.207,36.86,301.8,4.323,0.771,6.24,urban,dry,1.25,1,2,Moderate Stress
+AQ0002,27.704955,85.299965,Kathmandu,deep_tube,134.94,11.8,290.79,11.1823,26.0,513.7,3.822,0.667,7.53,urban,wet,1.15,10,1,Deep Aquifer / High Stress
+AQ0003,27.619534,85.371058,Kathmandu,dug,4.93,5.6,99.99,5.2549,19.03,2000.0,9.623,0.697,7.64,urban,wet,2.33,8,2,Moderate Stress
+AQ0004,27.714089,85.330209,Bhaktapur,deep_tube,165.81,50.65,437.46,25.1123,17.42,241.1,4.059,0.019,6.8,urban,dry,0.33,3,1,Deep Aquifer / High Stress
+AQ0005,27.741371,85.382252,Lalitpur,dug,4.32,2.18,807.11,102.6846,7.86,206.0,2.756,0.652,7.7,peri-urban,wet,0.56,14,0,Moderate Stress
+AQ0006,27.769783,85.380432,Kathmandu,shallow_tube,37.74,5.19,712.54,23.4795,30.35,250.2,2.636,0.104,7.3,peri-urban,dry,2.37,7,2,Moderate Stress
+AQ0007,27.65795,85.240305,Bhaktapur,deep_tube,204.92,21.44,351.35,7.7519,45.32,262.5,4.358,0.754,7.33,urban,wet,0.32,8,1,Deep Aquifer / High Stress
+AQ0008,27.706818,85.321207,Lalitpur,shallow_tube,30.01,4.63,935.56,118.1244,7.92,240.8,3.615,0.517,7.16,peri-urban,dry,1.06,1,0,Moderate Stress
+AQ0009,27.647912,85.236224,Kathmandu,deep_tube,196.04,4.93,132.33,6.1407,21.55,929.4,8.426,0.217,6.92,urban,wet,0.39,4,1,Deep Aquifer / High Stress
+AQ0010,27.665192,85.25506,Lalitpur,deep_tube,106.78,11.92,32.49,0.761,42.7,806.7,6.788,0.192,7.57,urban,wet,0.68,9,2,Moderate Stress
+AQ0011,27.703327,85.265207,Bhaktapur,deep_tube,210.03,30.3,115.06,2.6696,43.1,337.0,3.598,0.873,7.75,agriculture,dry,1.58,14,1,Deep Aquifer / High Stress
+AQ0012,27.788027,85.443416,Kathmandu,shallow_tube,8.0,0.5,293.25,13.6452,21.49,673.0,8.957,0.102,7.56,urban,wet,1.6,6,2,Moderate Stress
+AQ0013,27.67862,85.423012,Lalitpur,shallow_tube,81.02,17.5,138.7,7.8654,17.63,410.2,7.467,0.564,7.57,urban,dry,2.43,3,2,Moderate Stress
+AQ0014,27.796066,85.218837,Kathmandu,dug,5.78,0.2,221.83,4.7348,46.85,200.9,7.499,0.802,8.09,urban,dry,0.95,10,2,Moderate Stress
+AQ0015,27.762023,85.416768,Bhaktapur,shallow_tube,61.56,10.43,539.17,11.9682,45.05,200.3,3.429,0.638,6.93,urban,wet,1.49,13,2,Moderate Stress
+AQ0016,27.767787,85.415101,Kathmandu,dug,6.71,0.2,603.61,12.4619,48.44,826.9,7.334,0.617,6.96,urban,dry,1.25,10,2,Moderate Stress
+AQ0017,27.615691,85.206338,Bhaktapur,deep_tube,103.69,48.68,166.63,5.6076,29.72,705.3,9.651,0.768,8.03,urban,dry,1.65,7,1,Deep Aquifer / High Stress
+AQ0018,27.609543,85.341509,Kathmandu,dug,4.64,8.12,514.75,25.0079,20.58,1421.3,6.973,0.522,7.46,urban,dry,0.33,3,2,Moderate Stress
+AQ0019,27.700627,85.414122,Lalitpur,dug,6.4,6.05,336.05,10.8768,30.9,1036.0,3.644,0.573,7.49,urban,dry,2.41,10,2,Moderate Stress
+AQ0020,27.641337,85.26849,Kathmandu,shallow_tube,41.65,7.81,1232.6,34.5532,35.67,190.3,5.074,0.935,7.11,urban,dry,0.39,9,0,Moderate Stress
+AQ0021,27.760696,85.270509,Kathmandu,shallow_tube,13.18,2.04,250.09,5.7322,43.63,1015.5,1.753,0.63,7.67,peri-urban,wet,2.12,6,2,Moderate Stress
+AQ0022,27.659527,85.224996,Kathmandu,deep_tube,125.32,21.45,1855.73,68.26,27.19,784.9,10.919,0.649,7.32,urban,wet,2.35,10,0,Moderate Stress
+AQ0023,27.611512,85.337382,Kathmandu,deep_tube,100.47,21.31,1018.29,106.6209,9.55,463.3,6.26,0.513,7.32,urban,dry,0.49,3,0,Moderate Stress
+AQ0024,27.716261,85.415785,Bhaktapur,dug,6.37,13.79,1601.16,72.7487,22.01,217.0,6.137,0.53,6.45,urban,dry,1.56,4,0,Moderate Stress
+AQ0025,27.623764,85.229382,Lalitpur,shallow_tube,47.39,17.61,209.07,13.881,15.06,417.1,3.475,0.66,6.81,green,dry,2.43,2,2,Moderate Stress
+AQ0026,27.633243,85.254202,Kathmandu,deep_tube,96.17,26.87,174.73,17.8222,9.8,221.2,1.263,0.076,6.92,peri-urban,wet,0.89,5,1,Deep Aquifer / High Stress
+AQ0027,27.794879,85.446553,Lalitpur,shallow_tube,54.26,6.39,1133.17,47.5704,23.82,811.7,1.296,0.832,6.65,green,wet,1.14,6,0,Moderate Stress
+AQ0028,27.765833,85.34227,Kathmandu,dug,6.44,6.41,357.0,11.3942,31.33,696.4,5.045,0.373,6.81,urban,dry,0.9,4,2,Moderate Stress
+AQ0029,27.645729,85.367925,Lalitpur,shallow_tube,44.98,7.8,1211.87,27.9566,43.35,1377.3,4.633,0.313,7.07,agriculture,dry,0.36,5,0,Moderate Stress
+AQ0030,27.724062,85.37602,Kathmandu,dug,2.54,17.4,572.25,20.3433,28.13,298.7,4.002,0.01,7.17,peri-urban,dry,1.31,2,2,Moderate Stress
+AQ0031,27.724161,85.286853,Kathmandu,shallow_tube,47.28,0.5,1157.11,31.7931,36.4,559.8,8.001,0.746,7.38,urban,dry,0.79,5,0,Moderate Stress
+AQ0032,27.633787,85.269648,Kathmandu,dug,5.79,2.85,38.45,1.0659,36.07,262.9,6.004,0.559,7.09,agriculture,dry,2.07,1,2,Moderate Stress
+AQ0033,27.719456,85.446564,Kathmandu,deep_tube,196.12,10.5,336.46,28.8848,11.65,508.6,0.823,0.49,7.65,peri-urban,dry,1.17,9,1,Deep Aquifer / High Stress
+AQ0034,27.747481,85.245571,Kathmandu,deep_tube,154.52,8.6,44.89,2.1396,20.98,334.5,9.812,1.438,7.9,urban,dry,1.54,10,1,Deep Aquifer / High Stress
+AQ0035,27.656755,85.290771,Lalitpur,shallow_tube,19.02,19.48,170.78,13.9634,12.23,280.3,6.136,0.636,6.78,urban,dry,1.2,4,2,Moderate Stress
+AQ0036,27.799451,85.424153,Kathmandu,deep_tube,257.71,13.23,1493.06,56.453,26.45,308.9,2.742,0.385,7.52,green,wet,1.92,12,0,Moderate Stress
+AQ0037,27.622967,85.352655,Kathmandu,shallow_tube,39.01,2.52,207.9,18.817,11.05,731.6,8.424,0.331,8.42,urban,dry,1.21,14,2,Moderate Stress
+AQ0038,27.62134,85.412682,Lalitpur,shallow_tube,32.37,2.0,469.35,12.1052,38.77,545.2,7.045,0.537,7.5,urban,wet,1.59,2,2,Moderate Stress
+AQ0039,27.76332,85.309784,Kathmandu,shallow_tube,55.77,7.38,246.31,11.0576,22.28,683.3,2.143,0.033,7.77,peri-urban,dry,0.61,13,2,Moderate Stress
+AQ0040,27.699085,85.385365,Kathmandu,deep_tube,199.69,21.09,204.59,5.5096,37.13,1071.4,5.392,0.309,6.1,urban,wet,1.63,13,1,Deep Aquifer / High Stress
+AQ0041,27.707972,85.321589,Kathmandu,shallow_tube,40.41,15.44,1229.81,29.1384,42.21,374.0,5.319,1.048,6.45,urban,dry,2.31,8,0,Moderate Stress
+AQ0042,27.701178,85.352864,Kathmandu,deep_tube,156.56,20.63,446.61,37.6434,11.86,1237.3,8.569,0.249,7.14,urban,wet,2.47,14,1,Deep Aquifer / High Stress
+AQ0043,27.637264,85.409373,Kathmandu,shallow_tube,48.07,0.5,543.74,13.4422,40.45,231.0,11.31,0.032,5.81,urban,dry,2.32,11,2,Moderate Stress
+AQ0044,27.606569,85.428187,Kathmandu,shallow_tube,55.58,6.34,166.36,5.9031,28.18,391.2,7.878,0.081,7.27,urban,dry,0.96,13,2,Moderate Stress
+AQ0045,27.679464,85.306697,Lalitpur,shallow_tube,73.85,10.02,857.17,47.0144,18.23,460.5,7.873,1.322,7.19,urban,dry,0.53,8,0,Moderate Stress
+AQ0046,27.772357,85.436529,Kathmandu,shallow_tube,23.34,33.74,149.66,4.3191,34.65,616.8,1.379,0.405,7.44,urban,dry,1.74,8,2,Moderate Stress
+AQ0047,27.619888,85.260793,Lalitpur,deep_tube,128.34,21.3,129.05,2.8465,45.34,486.5,5.533,0.404,7.72,urban,wet,0.87,2,1,Deep Aquifer / High Stress
+AQ0048,27.672612,85.208557,Lalitpur,shallow_tube,30.59,14.62,378.23,12.4174,30.46,395.3,5.667,1.318,7.24,urban,wet,1.84,9,2,Moderate Stress
+AQ0049,27.651578,85.234839,Lalitpur,deep_tube,72.69,26.4,124.37,7.1754,17.33,1332.5,3.076,0.715,7.69,peri-urban,dry,1.62,9,1,Deep Aquifer / High Stress
+AQ0050,27.698855,85.343324,Lalitpur,shallow_tube,33.72,29.92,245.55,30.4227,8.07,349.5,3.811,0.924,7.95,agriculture,dry,2.39,7,2,Moderate Stress
+AQ0051,27.732734,85.434207,Lalitpur,dug,4.85,8.04,729.38,18.3764,39.69,391.7,4.656,0.05,7.0,peri-urban,dry,2.1,5,2,Moderate Stress
+AQ0052,27.600468,85.441925,Kathmandu,dug,7.97,3.32,744.65,26.166,28.46,605.7,6.826,0.69,7.21,peri-urban,wet,2.29,12,2,Moderate Stress
+AQ0053,27.644242,85.446917,Bhaktapur,dug,6.86,11.06,338.41,51.8425,6.53,209.1,3.58,1.085,7.16,agriculture,dry,2.16,2,2,Moderate Stress
+AQ0054,27.704487,85.361137,Lalitpur,shallow_tube,27.16,18.13,965.01,41.5921,23.2,890.5,6.616,0.755,8.06,urban,wet,1.24,12,0,Moderate Stress
+AQ0055,27.646592,85.2061,Bhaktapur,dug,6.16,9.86,162.18,7.0247,23.09,1588.9,1.456,0.01,6.32,agriculture,wet,1.92,14,2,Moderate Stress
+AQ0056,27.600669,85.316828,Kathmandu,deep_tube,190.03,48.84,135.5,12.783,10.6,560.8,0.01,0.711,7.66,green,dry,2.29,2,1,Deep Aquifer / High Stress
+AQ0057,27.633407,85.447792,Kathmandu,deep_tube,220.03,47.39,186.03,12.4666,14.92,558.2,1.884,0.469,6.61,urban,dry,1.97,14,1,Deep Aquifer / High Stress
+AQ0058,27.799267,85.424359,Kathmandu,shallow_tube,8.0,4.7,291.76,6.7305,43.35,383.8,4.659,0.243,6.77,green,dry,0.31,11,2,Moderate Stress
+AQ0059,27.744684,85.323969,Kathmandu,dug,4.96,2.12,137.08,4.3301,31.66,298.2,5.829,0.847,7.02,peri-urban,wet,2.05,8,2,Moderate Stress
+AQ0060,27.649057,85.239335,Kathmandu,shallow_tube,44.77,11.31,275.48,52.6571,5.23,289.0,2.958,0.303,7.63,agriculture,dry,0.72,13,2,Moderate Stress
+AQ0061,27.723385,85.445297,Lalitpur,shallow_tube,49.68,21.65,209.04,7.1207,29.36,377.8,2.419,0.691,7.4,peri-urban,wet,0.45,11,2,Moderate Stress
+AQ0062,27.633276,85.392746,Lalitpur,shallow_tube,31.2,15.2,1041.48,130.9512,7.95,305.5,3.69,0.659,6.59,peri-urban,wet,2.38,3,0,Moderate Stress
+AQ0063,27.690277,85.240906,Lalitpur,shallow_tube,56.83,29.73,274.38,11.4863,23.89,191.5,10.402,0.987,7.1,urban,dry,0.81,13,2,Moderate Stress
+AQ0064,27.640072,85.417031,Lalitpur,shallow_tube,77.73,0.5,103.11,3.5721,28.87,544.4,2.357,1.266,7.95,green,dry,0.84,9,2,Moderate Stress
+AQ0065,27.640105,85.322899,Kathmandu,shallow_tube,52.61,7.78,293.22,35.4986,8.26,304.9,0.01,1.039,6.65,peri-urban,dry,2.19,6,2,Moderate Stress
+AQ0066,27.781564,85.381071,Lalitpur,dug,6.33,2.06,276.73,13.4528,20.57,415.3,1.159,0.439,7.74,agriculture,dry,1.01,6,2,Moderate Stress
+AQ0067,27.713508,85.372366,Lalitpur,dug,8.8,16.36,414.02,9.3683,44.19,684.4,7.934,1.168,7.3,urban,dry,1.3,3,2,Moderate Stress
+AQ0068,27.608151,85.241,Kathmandu,shallow_tube,65.98,21.86,774.88,29.6229,26.16,563.5,3.303,0.153,7.8,urban,dry,1.49,11,2,Moderate Stress
+AQ0069,27.730065,85.249886,Lalitpur,dug,8.18,3.92,1236.91,60.1402,20.57,156.7,6.949,0.071,6.91,peri-urban,wet,1.6,6,0,Moderate Stress
+AQ0070,27.67183,85.295962,Kathmandu,deep_tube,194.96,19.16,945.64,43.4215,21.78,83.6,5.472,0.615,6.78,urban,dry,1.6,7,1,Deep Aquifer / High Stress
+AQ0071,27.671847,85.348238,Kathmandu,shallow_tube,20.58,11.08,234.77,28.2611,8.31,418.9,5.134,0.01,6.99,urban,wet,1.66,1,2,Moderate Stress
+AQ0072,27.650506,85.289813,Kathmandu,shallow_tube,47.56,0.5,1503.89,34.2652,43.89,1034.7,11.88,0.255,7.51,urban,wet,0.7,11,0,Moderate Stress
+AQ0073,27.663231,85.326809,Kathmandu,dug,7.83,8.98,2000.0,57.1283,35.01,777.7,4.644,0.55,8.16,urban,dry,2.21,6,0,Moderate Stress
+AQ0074,27.651061,85.365408,Bhaktapur,shallow_tube,42.76,9.5,237.49,5.125,46.34,579.6,2.212,0.959,8.11,peri-urban,wet,1.07,2,2,Moderate Stress
+AQ0075,27.799883,85.212053,Bhaktapur,shallow_tube,44.82,20.63,413.14,17.8181,23.19,816.6,0.159,0.93,7.52,peri-urban,dry,1.26,11,2,Moderate Stress
+AQ0076,27.675134,85.274217,Lalitpur,shallow_tube,60.07,33.05,43.06,1.3522,31.84,110.0,8.381,0.785,6.68,urban,dry,1.97,9,1,Deep Aquifer / High Stress
+AQ0077,27.675957,85.415833,Kathmandu,shallow_tube,19.16,4.37,576.18,14.6165,39.42,571.5,3.353,0.961,7.34,green,dry,0.84,11,2,Moderate Stress
+AQ0078,27.676015,85.249289,Kathmandu,dug,6.78,2.86,361.38,12.4823,28.95,243.3,3.845,0.213,7.23,peri-urban,dry,2.19,7,2,Moderate Stress
+AQ0079,27.705033,85.377262,Kathmandu,shallow_tube,60.96,14.56,203.84,4.2632,47.81,824.8,2.576,0.34,6.87,agriculture,dry,1.64,10,2,Moderate Stress
+AQ0080,27.672155,85.426473,Lalitpur,shallow_tube,27.14,2.74,669.69,16.1649,41.43,284.5,4.931,0.635,7.75,urban,wet,1.48,6,2,Moderate Stress
+AQ0081,27.604728,85.360493,Lalitpur,shallow_tube,31.64,2.09,299.44,26.88,11.14,247.0,11.675,0.751,6.93,urban,dry,1.57,7,2,Moderate Stress
+AQ0082,27.754525,85.266224,Lalitpur,shallow_tube,14.69,0.5,1950.29,45.9607,42.43,292.6,3.393,1.471,7.64,peri-urban,dry,0.81,10,0,Moderate Stress
+AQ0083,27.6666,85.367372,Bhaktapur,shallow_tube,65.09,19.43,162.55,3.3799,48.09,552.6,4.066,0.572,6.75,urban,dry,1.96,1,2,Moderate Stress
+AQ0084,27.660171,85.445309,Kathmandu,shallow_tube,28.7,12.14,209.98,5.1905,40.46,478.3,4.879,0.348,6.61,urban,wet,1.14,2,2,Moderate Stress
+AQ0085,27.787392,85.338451,Kathmandu,shallow_tube,72.34,3.67,638.05,12.8518,49.65,317.5,3.161,0.488,7.78,green,dry,2.23,14,2,Moderate Stress
+AQ0086,27.744284,85.23532,Kathmandu,deep_tube,123.95,10.43,334.28,10.8244,30.88,122.7,1.673,0.427,7.67,peri-urban,wet,2.4,6,2,Moderate Stress
+AQ0087,27.629275,85.291884,Kathmandu,dug,7.02,9.39,50.7,2.046,24.78,474.1,4.718,0.218,7.41,urban,dry,0.43,3,2,Moderate Stress
+AQ0088,27.638356,85.252939,Kathmandu,shallow_tube,17.56,22.05,647.29,49.7936,13.0,701.9,4.282,0.372,6.83,peri-urban,dry,0.79,13,0,Moderate Stress
+AQ0089,27.724779,85.33176,Kathmandu,dug,5.74,13.77,59.26,1.4031,42.24,677.7,5.932,0.449,7.19,urban,dry,0.87,10,2,Moderate Stress
+AQ0090,27.736195,85.247424,Lalitpur,shallow_tube,46.24,22.29,151.07,4.4337,34.07,140.6,3.192,0.459,7.48,urban,dry,1.73,3,2,Moderate Stress
+AQ0091,27.675178,85.298619,Kathmandu,shallow_tube,29.96,10.24,208.04,4.8563,42.84,1459.5,1.091,0.731,7.6,peri-urban,wet,1.65,12,2,Moderate Stress
+AQ0092,27.690124,85.420615,Kathmandu,deep_tube,113.74,25.96,905.75,22.0398,41.1,92.9,8.232,0.446,7.8,urban,dry,1.21,5,1,Deep Aquifer / High Stress
+AQ0093,27.732061,85.391093,Kathmandu,dug,7.99,0.82,190.86,18.243,10.46,887.5,4.956,0.362,7.66,peri-urban,wet,2.46,6,2,Moderate Stress
+AQ0094,27.697203,85.430074,Kathmandu,shallow_tube,43.45,8.07,44.13,1.9624,22.49,294.3,0.859,0.586,8.22,agriculture,dry,0.33,5,2,Moderate Stress
+AQ0095,27.657181,85.403987,Bhaktapur,deep_tube,139.97,20.37,264.47,7.0,37.78,595.4,7.258,0.786,6.87,urban,wet,2.1,3,1,Deep Aquifer / High Stress
+AQ0096,27.630135,85.285596,Kathmandu,shallow_tube,49.9,31.86,360.79,14.7137,24.52,452.7,0.192,0.852,7.37,peri-urban,dry,0.91,3,1,Deep Aquifer / High Stress
+AQ0097,27.680299,85.400018,Kathmandu,shallow_tube,50.8,32.46,173.29,5.7879,29.94,167.6,2.521,0.29,6.15,urban,dry,1.89,8,1,Deep Aquifer / High Stress
+AQ0098,27.643442,85.234456,Lalitpur,dug,5.21,7.51,238.29,8.5241,27.95,289.7,6.821,0.616,6.87,urban,dry,1.62,3,2,Moderate Stress
+AQ0099,27.653964,85.406262,Kathmandu,dug,5.66,4.12,554.25,19.6006,28.28,201.6,4.951,0.847,6.52,urban,wet,1.92,11,2,Moderate Stress
+AQ0100,27.746723,85.274861,Kathmandu,shallow_tube,20.08,8.66,86.9,1.7704,49.08,543.8,4.443,0.78,7.3,urban,wet,2.02,3,2,Moderate Stress
+AQ0101,27.651859,85.307414,Bhaktapur,deep_tube,180.82,11.03,286.38,33.195,8.63,393.5,9.171,0.388,7.43,urban,dry,1.64,12,1,Deep Aquifer / High Stress
+AQ0102,27.679767,85.430656,Kathmandu,dug,7.77,1.24,52.51,1.2206,43.02,260.0,1.459,1.026,8.22,agriculture,wet,1.06,2,2,Moderate Stress
+AQ0103,27.682219,85.286836,Bhaktapur,dug,6.49,7.96,186.35,4.9186,37.89,205.5,5.902,0.651,7.37,urban,dry,1.07,9,2,Moderate Stress
+AQ0104,27.604407,85.380002,Kathmandu,dug,6.94,11.2,85.35,2.9018,29.41,461.8,4.144,0.829,6.98,peri-urban,wet,1.24,5,2,Moderate Stress
+AQ0105,27.78914,85.412494,Lalitpur,shallow_tube,66.55,4.71,155.8,3.7735,41.29,271.3,2.717,0.332,6.94,peri-urban,dry,1.03,14,2,Moderate Stress
+AQ0106,27.750822,85.204486,Kathmandu,shallow_tube,32.54,7.83,422.28,14.0249,30.11,234.8,4.226,1.148,6.97,urban,wet,1.12,7,2,Moderate Stress
+AQ0107,27.764421,85.295105,Lalitpur,deep_tube,156.8,2.44,1027.99,30.6349,33.56,305.8,6.054,0.897,6.78,agriculture,dry,2.05,7,0,Moderate Stress
+AQ0108,27.722695,85.290775,Bhaktapur,dug,11.09,11.45,146.74,3.5008,41.92,730.4,1.058,0.271,7.77,green,dry,2.47,13,2,Moderate Stress
+AQ0109,27.796822,85.36698,Lalitpur,dug,5.63,14.95,235.94,8.2113,28.73,566.4,7.012,0.759,7.05,urban,dry,2.1,2,2,Moderate Stress
+AQ0110,27.62215,85.389896,Bhaktapur,deep_tube,70.32,41.87,332.05,11.5921,28.64,304.1,6.002,0.976,7.12,urban,dry,1.93,2,1,Deep Aquifer / High Stress
+AQ0111,27.749765,85.362787,Lalitpur,shallow_tube,38.45,13.09,401.7,11.3385,35.43,819.2,1.78,0.479,7.46,urban,wet,2.14,7,2,Moderate Stress
+AQ0112,27.615416,85.285095,Bhaktapur,dug,4.81,5.57,188.61,4.1306,45.66,602.8,6.552,0.963,7.37,urban,wet,0.3,11,2,Moderate Stress
+AQ0113,27.622198,85.311764,Kathmandu,deep_tube,30.0,20.19,128.44,18.6387,6.89,488.2,7.507,0.818,7.07,urban,wet,1.96,9,2,Moderate Stress
+AQ0114,27.767892,85.44545,Lalitpur,shallow_tube,48.54,17.73,236.94,22.7588,10.41,372.2,5.292,0.956,6.92,urban,wet,0.46,9,2,Moderate Stress
+AQ0115,27.659984,85.385798,Kathmandu,deep_tube,175.7,37.97,257.71,6.3233,40.76,420.5,1.299,0.654,7.78,green,dry,0.44,4,1,Deep Aquifer / High Stress
+AQ0116,27.644045,85.322094,Lalitpur,shallow_tube,23.19,13.03,217.94,4.5723,47.66,944.6,1.593,0.297,7.39,peri-urban,dry,0.82,12,2,Moderate Stress
+AQ0117,27.697533,85.363056,Bhaktapur,shallow_tube,40.65,17.91,254.13,11.9405,21.28,277.1,3.967,0.063,7.16,urban,wet,1.64,13,2,Moderate Stress
+AQ0118,27.694858,85.347717,Kathmandu,deep_tube,120.9,30.6,225.59,9.87,22.86,282.3,3.281,1.038,7.24,peri-urban,dry,1.56,7,1,Deep Aquifer / High Stress
+AQ0119,27.698709,85.375565,Bhaktapur,dug,4.58,0.75,254.79,6.8619,37.13,154.9,7.163,0.432,7.27,peri-urban,dry,0.87,7,2,Moderate Stress
+AQ0120,27.608112,85.417899,Kathmandu,shallow_tube,48.82,28.69,2000.0,43.9421,45.51,146.5,0.656,1.513,6.67,peri-urban,dry,1.72,3,0,Moderate Stress
+AQ0121,27.718732,85.202533,Lalitpur,deep_tube,207.19,15.79,153.47,13.4664,11.4,392.1,4.861,0.396,7.25,urban,wet,0.57,1,1,Deep Aquifer / High Stress
+AQ0122,27.64321,85.316652,Lalitpur,dug,8.1,7.07,145.37,3.3206,43.78,171.7,5.673,1.213,7.43,urban,dry,0.52,11,2,Moderate Stress
+AQ0123,27.71644,85.292793,Lalitpur,shallow_tube,25.2,27.06,247.24,5.4876,45.05,224.3,5.407,0.06,7.81,urban,dry,0.46,14,2,Moderate Stress
+AQ0124,27.719198,85.225315,Lalitpur,shallow_tube,44.08,26.65,437.1,39.3407,11.11,373.5,1.764,0.01,6.47,agriculture,dry,0.99,13,2,Moderate Stress
+AQ0125,27.691705,85.272311,Bhaktapur,dug,5.81,6.8,418.41,8.4903,49.28,158.8,3.248,0.715,6.61,urban,wet,1.49,6,2,Moderate Stress
+AQ0126,27.649381,85.409637,Kathmandu,deep_tube,98.4,28.45,587.23,13.856,42.38,189.9,8.248,0.788,7.02,urban,dry,0.76,13,1,Deep Aquifer / High Stress
+AQ0127,27.79877,85.420079,Lalitpur,shallow_tube,21.56,19.89,179.98,6.1143,29.44,465.8,7.986,0.741,7.0,urban,dry,0.57,1,2,Moderate Stress
+AQ0128,27.736151,85.316696,Kathmandu,deep_tube,151.13,34.25,1314.43,70.6297,18.61,2000.0,3.06,1.028,7.29,urban,dry,1.1,1,0,Moderate Stress
+AQ0129,27.773115,85.445185,Kathmandu,deep_tube,174.88,26.33,261.81,6.0287,43.43,805.1,1.693,0.864,5.73,agriculture,wet,1.68,7,1,Deep Aquifer / High Stress
+AQ0130,27.603823,85.319211,Lalitpur,shallow_tube,28.41,21.93,185.93,10.5979,17.54,708.6,3.348,0.909,7.46,urban,dry,1.93,5,2,Moderate Stress
+AQ0131,27.601133,85.434273,Lalitpur,deep_tube,170.95,40.9,160.33,9.102,17.62,530.4,0.01,1.306,7.54,peri-urban,dry,0.31,3,1,Deep Aquifer / High Stress
+AQ0132,27.704515,85.274891,Kathmandu,shallow_tube,49.89,23.97,158.41,8.6618,18.29,252.1,0.59,0.554,7.55,peri-urban,dry,2.29,13,2,Moderate Stress
+AQ0133,27.716651,85.410558,Kathmandu,dug,8.96,6.81,432.36,17.0036,25.43,456.2,3.934,0.01,8.1,peri-urban,dry,0.82,5,2,Moderate Stress
+AQ0134,27.760792,85.338125,Kathmandu,dug,4.52,13.64,207.56,6.2275,33.33,274.7,6.411,0.277,7.76,urban,dry,0.52,1,2,Moderate Stress
+AQ0135,27.625986,85.341246,Bhaktapur,shallow_tube,11.81,0.5,408.03,59.1079,6.9,622.9,4.87,0.475,6.9,peri-urban,wet,2.23,5,2,Moderate Stress
+AQ0136,27.79321,85.390259,Bhaktapur,shallow_tube,30.74,5.01,340.22,16.0462,21.2,400.1,5.919,0.414,6.59,urban,wet,1.11,12,2,Moderate Stress
+AQ0137,27.771791,85.246506,Kathmandu,shallow_tube,27.53,18.6,972.6,23.8201,40.83,599.0,6.307,0.56,8.18,urban,wet,1.57,5,2,Moderate Stress
+AQ0138,27.657482,85.291946,Kathmandu,dug,2.51,5.0,122.59,4.5106,27.18,638.3,0.796,0.621,7.47,urban,wet,1.79,4,2,Moderate Stress
+AQ0139,27.690984,85.266813,Kathmandu,dug,6.46,14.06,88.73,6.7329,13.18,128.9,5.477,0.86,6.59,urban,dry,1.56,11,2,Moderate Stress
+AQ0140,27.732601,85.337096,Bhaktapur,shallow_tube,58.93,6.74,164.71,13.8937,11.85,478.3,2.849,0.368,8.4,green,wet,0.43,12,2,Moderate Stress
+AQ0141,27.611569,85.439447,Bhaktapur,shallow_tube,40.31,8.87,167.13,11.0373,15.14,319.4,1.523,0.774,7.91,peri-urban,wet,0.62,5,2,Moderate Stress
+AQ0142,27.705453,85.426605,Kathmandu,shallow_tube,58.65,6.43,212.51,5.8943,36.05,398.8,3.905,0.01,6.84,urban,dry,1.97,13,2,Moderate Stress
+AQ0143,27.789814,85.440578,Lalitpur,deep_tube,166.9,58.25,73.9,1.6842,43.88,708.9,1.933,0.01,7.5,peri-urban,dry,1.75,9,1,Deep Aquifer / High Stress
+AQ0144,27.639385,85.437857,Bhaktapur,shallow_tube,40.72,23.38,87.96,10.6125,8.29,441.0,6.921,0.619,7.49,urban,dry,2.45,7,2,Moderate Stress
+AQ0145,27.678559,85.413555,Lalitpur,shallow_tube,36.39,0.5,775.09,18.1975,42.59,287.7,9.015,0.482,7.43,urban,wet,1.43,11,2,Moderate Stress
+AQ0146,27.650764,85.261452,Kathmandu,deep_tube,149.57,42.87,227.49,25.047,9.08,143.8,1.366,0.01,8.01,peri-urban,dry,2.16,1,1,Deep Aquifer / High Stress
+AQ0147,27.638319,85.42956,Kathmandu,shallow_tube,33.89,8.27,1787.96,57.4833,31.1,1055.5,4.598,0.703,7.66,urban,wet,2.02,10,0,Moderate Stress
+AQ0148,27.777777,85.336126,Kathmandu,shallow_tube,51.19,0.5,1043.58,57.0705,18.29,374.7,8.789,1.064,7.57,urban,dry,1.08,4,0,Moderate Stress
+AQ0149,27.630319,85.418971,Kathmandu,shallow_tube,32.44,15.91,30.0,4.0224,7.46,208.3,0.879,0.875,6.63,urban,dry,1.93,5,2,Moderate Stress
+AQ0150,27.751814,85.352408,Bhaktapur,deep_tube,98.76,3.72,197.55,5.0252,39.31,198.0,8.008,0.01,7.27,urban,dry,1.68,6,2,Moderate Stress
+AQ0151,27.653065,85.350388,Kathmandu,shallow_tube,34.24,11.73,345.55,7.355,46.98,551.2,3.331,0.961,7.16,peri-urban,dry,1.83,7,2,Moderate Stress
+AQ0152,27.770094,85.286151,Kathmandu,dug,5.26,3.88,837.82,34.0721,24.59,129.4,7.575,0.524,7.35,urban,wet,2.05,1,2,Moderate Stress
+AQ0153,27.794051,85.309415,Kathmandu,shallow_tube,42.9,15.94,165.59,4.4357,37.33,346.8,2.404,0.01,7.75,peri-urban,wet,0.59,10,2,Moderate Stress
+AQ0154,27.761758,85.369288,Lalitpur,shallow_tube,40.1,29.59,254.4,5.8779,43.28,406.5,3.548,0.135,6.98,urban,dry,1.21,6,2,Moderate Stress
+AQ0155,27.66681,85.383175,Kathmandu,dug,4.59,13.48,912.34,120.8981,7.55,553.4,1.77,1.138,7.92,peri-urban,dry,0.74,3,0,Moderate Stress
+AQ0156,27.757054,85.350276,Bhaktapur,shallow_tube,39.59,6.68,128.82,2.6261,49.05,179.3,3.983,0.294,7.22,urban,wet,1.63,2,2,Moderate Stress
+AQ0157,27.696608,85.267133,Kathmandu,shallow_tube,41.31,17.59,234.93,7.3515,31.96,983.0,4.455,1.099,7.71,urban,dry,1.64,9,2,Moderate Stress
+AQ0158,27.705151,85.262381,Kathmandu,dug,5.73,0.2,1086.91,149.4651,7.27,174.5,6.479,1.012,7.93,green,wet,1.93,6,0,Moderate Stress
+AQ0159,27.795401,85.225473,Kathmandu,shallow_tube,43.38,1.77,202.08,8.2321,24.55,1142.8,5.04,0.419,7.33,peri-urban,wet,0.74,7,2,Moderate Stress
+AQ0160,27.610004,85.42788,Kathmandu,shallow_tube,36.31,23.13,89.05,2.8033,31.77,164.8,0.303,0.555,6.0,agriculture,dry,0.92,8,2,Moderate Stress
+AQ0161,27.640056,85.354196,Lalitpur,shallow_tube,28.55,15.76,598.01,20.4622,29.22,249.6,0.01,1.103,7.52,agriculture,dry,1.3,13,2,Moderate Stress
+AQ0162,27.774745,85.359489,Lalitpur,shallow_tube,22.7,8.69,26.37,0.6538,40.33,184.3,5.383,0.413,7.18,urban,wet,0.76,1,2,Moderate Stress
+AQ0163,27.752888,85.302418,Lalitpur,shallow_tube,35.82,13.56,117.78,2.6363,44.68,563.3,5.543,0.178,6.79,urban,dry,1.43,7,2,Moderate Stress
+AQ0164,27.650976,85.385633,Kathmandu,deep_tube,120.44,20.54,909.65,41.7108,21.81,233.0,6.319,0.814,6.12,urban,wet,2.05,7,1,Deep Aquifer / High Stress
+AQ0165,27.767582,85.414691,Lalitpur,shallow_tube,23.45,11.54,131.23,8.5594,15.33,427.8,5.577,0.501,7.41,urban,wet,1.08,12,2,Moderate Stress
+AQ0166,27.716429,85.229604,Kathmandu,shallow_tube,32.37,11.39,147.36,4.7942,30.74,390.7,2.334,0.767,7.6,peri-urban,dry,1.21,10,2,Moderate Stress
+AQ0167,27.634339,85.325028,Kathmandu,deep_tube,182.93,55.81,377.52,18.713,20.17,518.8,3.446,0.585,7.29,urban,dry,1.42,5,1,Deep Aquifer / High Stress
+AQ0168,27.755298,85.352834,Bhaktapur,shallow_tube,54.06,14.35,413.83,10.9164,37.91,751.5,8.539,0.503,7.06,urban,dry,0.93,7,2,Moderate Stress
+AQ0169,27.690259,85.245861,Bhaktapur,deep_tube,102.0,21.88,699.53,23.8104,29.38,278.0,7.238,0.01,7.51,urban,dry,0.78,6,1,Deep Aquifer / High Stress
+AQ0170,27.745847,85.352102,Lalitpur,shallow_tube,33.21,13.24,539.06,12.7102,42.41,316.6,3.578,0.695,6.91,peri-urban,dry,1.24,10,2,Moderate Stress
+AQ0171,27.756392,85.387937,Lalitpur,shallow_tube,46.15,1.03,482.86,35.0563,13.77,477.9,5.73,1.328,7.74,agriculture,wet,2.26,5,2,Moderate Stress
+AQ0172,27.708329,85.389567,Kathmandu,shallow_tube,27.92,31.03,99.29,2.2685,43.77,508.2,2.983,1.441,7.91,peri-urban,dry,0.59,3,2,Moderate Stress
+AQ0173,27.764366,85.364878,Lalitpur,shallow_tube,23.62,9.79,811.06,47.3525,17.13,572.4,4.352,1.02,6.58,urban,wet,2.09,4,0,Moderate Stress
+AQ0174,27.692305,85.445826,Lalitpur,shallow_tube,30.38,15.3,237.54,10.0287,23.69,720.2,2.534,0.081,7.04,peri-urban,dry,1.43,13,2,Moderate Stress
+AQ0175,27.687284,85.366693,Kathmandu,shallow_tube,48.88,19.49,104.07,5.571,18.68,443.5,1.898,0.492,7.75,agriculture,wet,0.33,12,2,Moderate Stress
+AQ0176,27.730868,85.258005,Kathmandu,shallow_tube,60.02,22.26,800.84,26.3845,30.35,714.5,6.191,1.388,6.95,urban,dry,1.16,4,2,Moderate Stress
+AQ0177,27.713897,85.417103,Kathmandu,shallow_tube,62.75,27.76,21.49,0.4913,43.75,609.5,7.628,0.427,7.73,urban,dry,2.2,8,2,Moderate Stress
+AQ0178,27.788338,85.241839,Kathmandu,shallow_tube,55.17,29.43,119.58,3.7406,31.97,560.7,4.853,0.478,7.37,urban,dry,0.34,1,1,Deep Aquifer / High Stress
+AQ0179,27.721939,85.37491,Lalitpur,deep_tube,152.61,28.52,226.44,7.3599,30.77,504.3,5.454,0.436,7.12,urban,dry,0.37,8,1,Deep Aquifer / High Stress
+AQ0180,27.646159,85.428918,Lalitpur,dug,7.67,20.07,190.7,4.2561,44.81,343.4,5.825,1.269,7.9,urban,dry,2.37,5,2,Moderate Stress
+AQ0181,27.612479,85.28382,Kathmandu,deep_tube,170.58,14.94,153.22,18.6929,8.2,269.3,2.92,0.01,6.97,urban,wet,2.06,14,1,Deep Aquifer / High Stress
+AQ0182,27.726116,85.254927,Kathmandu,deep_tube,65.1,4.0,388.32,46.0012,8.44,666.5,10.505,0.207,6.64,urban,dry,0.31,12,2,Moderate Stress
+AQ0183,27.697567,85.220568,Kathmandu,shallow_tube,22.21,0.5,624.23,15.6186,39.97,312.0,12.287,0.551,7.62,urban,wet,0.73,2,2,Moderate Stress
+AQ0184,27.694173,85.364014,Kathmandu,shallow_tube,27.98,10.92,158.52,6.6811,23.73,696.9,2.048,0.633,7.87,agriculture,wet,1.92,12,2,Moderate Stress
+AQ0185,27.697925,85.361186,Kathmandu,shallow_tube,62.15,0.5,389.77,22.223,17.54,277.8,2.334,0.197,7.31,peri-urban,dry,1.12,3,2,Moderate Stress
+AQ0186,27.787779,85.423496,Kathmandu,shallow_tube,12.22,19.21,2000.0,63.4881,31.5,598.0,4.049,0.741,6.93,peri-urban,wet,0.81,4,0,Moderate Stress
+AQ0187,27.691665,85.287805,Kathmandu,shallow_tube,25.95,8.15,668.32,25.7211,25.98,277.9,5.551,0.456,7.89,urban,dry,2.12,13,2,Moderate Stress
+AQ0188,27.73488,85.390723,Kathmandu,shallow_tube,50.52,2.65,398.13,11.9976,33.18,617.2,5.305,0.9,7.58,agriculture,dry,0.77,12,2,Moderate Stress
+AQ0189,27.74492,85.227898,Lalitpur,shallow_tube,33.76,4.79,172.49,16.2008,10.65,258.0,5.4,0.547,7.53,peri-urban,wet,0.45,5,2,Moderate Stress
+AQ0190,27.749885,85.307778,Kathmandu,shallow_tube,14.9,11.45,1388.98,40.3748,34.4,277.6,0.625,0.803,8.47,peri-urban,dry,1.07,1,0,Moderate Stress
+AQ0191,27.656323,85.44084,Kathmandu,shallow_tube,53.14,14.12,94.85,11.0912,8.55,149.6,6.501,0.866,7.1,urban,wet,0.44,9,2,Moderate Stress
+AQ0192,27.647998,85.377533,Kathmandu,shallow_tube,52.74,14.61,576.2,33.332,17.29,286.6,6.371,0.579,7.94,urban,dry,2.2,12,2,Moderate Stress
+AQ0193,27.682239,85.300602,Bhaktapur,deep_tube,133.79,15.2,173.48,13.0352,13.31,242.2,0.01,0.758,6.91,peri-urban,wet,1.47,6,1,Deep Aquifer / High Stress
+AQ0194,27.736431,85.437475,Kathmandu,shallow_tube,57.28,32.19,266.65,18.0096,14.81,410.5,6.917,1.385,7.31,urban,dry,1.2,10,1,Deep Aquifer / High Stress
+AQ0195,27.665359,85.202703,Lalitpur,deep_tube,160.63,15.47,515.78,79.8434,6.46,515.7,6.57,0.01,7.49,urban,dry,2.36,6,1,Deep Aquifer / High Stress
+AQ0196,27.68471,85.398393,Kathmandu,shallow_tube,31.38,10.86,196.95,13.2879,14.82,407.3,6.584,0.729,7.42,urban,dry,0.47,3,2,Moderate Stress
+AQ0197,27.670164,85.29064,Lalitpur,shallow_tube,17.21,0.5,93.0,2.2475,41.38,312.5,9.629,0.744,8.18,urban,wet,0.37,5,2,Moderate Stress
+AQ0198,27.66236,85.262443,Lalitpur,shallow_tube,48.08,4.93,151.07,5.385,28.05,742.9,12.027,0.569,7.05,urban,wet,1.26,7,2,Moderate Stress
+AQ0199,27.651067,85.226469,Kathmandu,shallow_tube,57.36,24.86,210.12,17.4277,12.06,194.7,1.562,0.015,7.36,agriculture,dry,1.41,11,2,Moderate Stress
+AQ0200,27.652469,85.278263,Lalitpur,dug,1.5,4.52,236.71,12.35,19.17,198.7,1.458,0.465,7.07,agriculture,dry,1.99,6,2,Moderate Stress
+AQ0201,27.650234,85.411053,Kathmandu,shallow_tube,50.09,0.5,437.66,11.5853,37.78,876.8,4.019,1.182,6.96,peri-urban,dry,0.89,11,2,Moderate Stress
+AQ0202,27.756038,85.449406,Kathmandu,shallow_tube,13.46,8.49,26.33,0.5691,46.26,304.6,5.442,0.864,7.63,urban,dry,1.82,14,2,Moderate Stress
+AQ0203,27.620049,85.204148,Lalitpur,shallow_tube,32.75,7.94,190.04,4.3114,44.08,367.9,3.826,0.01,7.86,urban,dry,0.36,10,2,Moderate Stress
+AQ0204,27.789351,85.395404,Kathmandu,dug,4.06,19.9,966.87,24.9095,38.82,409.6,1.355,0.232,7.05,urban,dry,0.79,1,2,Moderate Stress
+AQ0205,27.645216,85.404326,Bhaktapur,dug,2.03,0.2,214.1,10.6793,20.05,599.0,5.312,0.379,7.43,urban,wet,0.63,6,2,Moderate Stress
+AQ0206,27.669312,85.301929,Kathmandu,dug,6.63,15.64,586.51,11.9888,48.92,184.0,1.32,0.781,6.8,urban,dry,2.23,9,2,Moderate Stress
+AQ0207,27.628222,85.336396,Kathmandu,dug,6.94,21.43,197.26,7.1194,27.71,842.2,4.954,0.01,6.17,urban,dry,1.66,8,2,Moderate Stress
+AQ0208,27.712846,85.412644,Kathmandu,deep_tube,205.68,28.88,163.12,4.1358,39.44,568.6,2.599,0.435,7.65,urban,dry,1.79,1,1,Deep Aquifer / High Stress
+AQ0209,27.788786,85.391457,Kathmandu,dug,3.99,7.62,285.4,14.582,19.57,841.1,8.044,0.484,7.06,urban,dry,1.84,11,2,Moderate Stress
+AQ0210,27.74683,85.28533,Kathmandu,deep_tube,124.93,1.0,224.58,35.9141,6.25,210.4,7.511,0.71,7.24,urban,dry,0.41,12,2,Moderate Stress
+AQ0211,27.718403,85.241475,Kathmandu,shallow_tube,58.24,17.61,396.98,33.6965,11.78,678.7,3.053,0.01,7.64,green,dry,2.14,4,2,Moderate Stress
+AQ0212,27.789185,85.273956,Kathmandu,shallow_tube,49.79,0.58,312.68,8.2731,37.8,804.7,3.055,0.724,7.52,urban,wet,0.53,4,2,Moderate Stress
+AQ0213,27.728981,85.272063,Kathmandu,deep_tube,80.87,32.18,367.86,16.5096,22.28,289.3,1.24,0.611,7.36,urban,dry,0.49,3,1,Deep Aquifer / High Stress
+AQ0214,27.778264,85.315954,Kathmandu,shallow_tube,38.18,0.5,608.77,28.4338,21.41,663.3,8.486,0.531,7.86,urban,wet,2.49,11,2,Moderate Stress
+AQ0215,27.723835,85.24666,Kathmandu,shallow_tube,71.29,1.17,241.69,4.998,48.36,387.3,4.348,1.096,8.34,urban,wet,0.81,10,2,Moderate Stress
+AQ0216,27.659133,85.433136,Kathmandu,shallow_tube,63.6,0.5,338.95,7.4966,45.21,262.9,5.863,0.762,7.29,green,wet,2.45,13,2,Moderate Stress
+AQ0217,27.740421,85.282838,Lalitpur,shallow_tube,35.73,31.45,124.32,2.557,48.62,280.1,5.034,0.796,6.71,urban,dry,2.5,14,2,Moderate Stress
+AQ0218,27.670946,85.300176,Kathmandu,deep_tube,42.37,7.76,148.77,19.1591,7.77,508.6,5.322,1.195,8.1,urban,wet,1.18,4,2,Moderate Stress
+AQ0219,27.659472,85.240634,Lalitpur,dug,9.0,14.33,207.89,22.0294,9.44,328.3,4.644,0.973,8.05,urban,dry,0.63,12,2,Moderate Stress
+AQ0220,27.659265,85.235867,Kathmandu,shallow_tube,28.66,10.3,1145.94,27.1039,42.28,389.1,0.753,0.911,7.48,peri-urban,wet,0.91,7,0,Moderate Stress
+AQ0221,27.735698,85.280775,Bhaktapur,shallow_tube,63.13,0.5,123.94,2.4885,49.8,508.1,2.634,0.757,6.46,peri-urban,wet,1.07,2,2,Moderate Stress
+AQ0222,27.728791,85.295238,Kathmandu,shallow_tube,36.48,21.56,279.86,6.6757,41.92,486.4,8.711,1.136,7.31,urban,dry,1.69,9,2,Moderate Stress
+AQ0223,27.689077,85.203642,Kathmandu,deep_tube,132.13,3.54,295.05,7.0446,41.88,539.6,10.122,1.203,6.48,urban,dry,0.33,3,2,Moderate Stress
+AQ0224,27.636892,85.250573,Kathmandu,dug,6.57,0.2,213.82,18.5287,11.54,258.5,7.935,0.684,7.71,urban,dry,2.41,9,2,Moderate Stress
+AQ0225,27.783509,85.394453,Lalitpur,deep_tube,30.0,41.0,2000.0,78.9875,25.32,589.1,3.117,1.242,7.66,peri-urban,dry,0.4,14,0,Moderate Stress
+AQ0226,27.676428,85.338683,Kathmandu,dug,8.31,14.68,224.23,36.8792,6.08,218.1,6.989,1.235,7.53,urban,dry,0.99,14,2,Moderate Stress
+AQ0227,27.698082,85.242376,Kathmandu,shallow_tube,46.06,4.32,164.82,6.6818,24.67,964.2,5.205,0.661,7.22,peri-urban,dry,1.91,8,2,Moderate Stress
+AQ0228,27.679867,85.302418,Bhaktapur,dug,4.81,10.39,62.23,1.4655,42.47,490.4,6.729,0.506,6.67,urban,wet,1.51,13,2,Moderate Stress
+AQ0229,27.723722,85.342138,Kathmandu,shallow_tube,14.05,29.45,111.97,6.0108,18.63,694.6,9.249,0.113,6.84,urban,dry,1.74,7,2,Moderate Stress
+AQ0230,27.710694,85.342572,Kathmandu,shallow_tube,39.26,2.98,443.26,12.2201,36.27,913.6,4.91,0.2,7.18,peri-urban,wet,0.87,5,2,Moderate Stress
+AQ0231,27.612186,85.373504,Kathmandu,shallow_tube,52.54,12.59,173.05,17.8213,9.71,452.5,1.119,0.262,7.89,urban,dry,0.58,3,2,Moderate Stress
+AQ0232,27.779315,85.249074,Kathmandu,deep_tube,206.17,25.77,977.08,25.2191,38.74,436.2,5.218,0.446,6.83,urban,dry,0.97,13,1,Deep Aquifer / High Stress
+AQ0233,27.71881,85.347413,Kathmandu,deep_tube,183.61,7.46,1335.38,236.0404,5.66,837.6,4.788,0.289,6.68,urban,wet,0.89,3,0,Moderate Stress
+AQ0234,27.711481,85.376754,Lalitpur,deep_tube,153.67,21.86,550.48,50.1266,10.98,171.8,4.88,0.01,6.67,urban,dry,2.31,9,1,Deep Aquifer / High Stress
+AQ0235,27.752001,85.27815,Kathmandu,dug,6.07,6.21,159.7,4.0468,39.46,221.4,1.574,0.828,8.01,peri-urban,wet,0.75,6,2,Moderate Stress
+AQ0236,27.673392,85.236807,Kathmandu,shallow_tube,21.34,33.7,312.57,7.524,41.54,534.9,7.509,0.792,6.74,urban,dry,1.71,14,2,Moderate Stress
+AQ0237,27.667848,85.215608,Kathmandu,dug,4.38,0.41,572.11,13.1094,43.64,511.0,10.903,0.203,7.81,urban,wet,1.4,8,2,Moderate Stress
+AQ0238,27.646256,85.260893,Kathmandu,dug,4.34,4.01,559.3,13.8975,40.24,253.5,4.767,0.095,7.7,peri-urban,wet,2.19,1,2,Moderate Stress
+AQ0239,27.695095,85.412275,Kathmandu,dug,6.36,16.47,1524.87,47.3649,32.19,859.8,1.772,0.515,7.36,peri-urban,dry,2.15,13,0,Moderate Stress
+AQ0240,27.784438,85.235499,Kathmandu,dug,2.89,14.18,177.63,4.0543,43.81,630.8,0.443,0.642,7.37,peri-urban,dry,2.49,4,2,Moderate Stress
+AQ0241,27.708851,85.443945,Kathmandu,shallow_tube,44.22,0.5,770.35,27.6617,27.85,358.7,4.222,0.022,6.31,peri-urban,dry,2.03,3,2,Moderate Stress
+AQ0242,27.779011,85.413311,Lalitpur,dug,6.4,7.61,196.87,11.801,16.68,248.0,5.972,0.671,6.73,agriculture,wet,1.43,6,2,Moderate Stress
+AQ0243,27.748458,85.241954,Kathmandu,dug,6.64,10.04,117.46,5.6752,20.7,942.7,0.01,0.569,6.97,peri-urban,dry,2.07,13,2,Moderate Stress
+AQ0244,27.747818,85.371628,Lalitpur,deep_tube,192.25,39.75,311.4,7.5286,41.36,589.8,4.016,0.535,7.66,urban,dry,2.2,13,1,Deep Aquifer / High Stress
+AQ0245,27.741274,85.286395,Kathmandu,shallow_tube,49.97,6.81,147.37,9.501,15.51,138.2,5.28,0.01,7.16,urban,dry,0.53,14,2,Moderate Stress
+AQ0246,27.612045,85.274413,Kathmandu,shallow_tube,46.97,7.27,399.99,48.9344,8.17,445.9,9.71,0.874,6.99,urban,dry,0.67,13,2,Moderate Stress
+AQ0247,27.69657,85.253071,Kathmandu,deep_tube,129.5,13.03,373.32,13.4933,27.67,326.5,8.725,0.543,6.52,urban,wet,2.13,6,1,Deep Aquifer / High Stress
+AQ0248,27.747894,85.361384,Kathmandu,shallow_tube,36.69,6.62,268.39,20.5514,13.06,558.8,6.498,1.153,6.92,urban,dry,1.05,3,2,Moderate Stress
+AQ0249,27.638403,85.236505,Bhaktapur,deep_tube,166.74,20.26,186.48,9.7548,19.12,172.5,7.761,0.441,7.79,urban,wet,0.59,10,1,Deep Aquifer / High Stress
+AQ0250,27.793549,85.364441,Kathmandu,deep_tube,195.31,33.29,522.16,19.9232,26.21,100.7,3.994,0.499,6.54,urban,wet,0.46,10,1,Deep Aquifer / High Stress
+AQ0251,27.66322,85.213935,Lalitpur,dug,4.55,7.29,236.55,5.1438,45.99,398.3,3.869,0.751,8.03,urban,dry,2.25,8,2,Moderate Stress
+AQ0252,27.616191,85.419153,Lalitpur,shallow_tube,20.64,17.27,317.99,10.24,31.05,366.8,3.172,1.413,7.14,urban,wet,0.88,1,2,Moderate Stress
+AQ0253,27.68897,85.322262,Kathmandu,deep_tube,240.8,13.42,53.87,1.2475,43.18,818.6,1.167,1.163,7.56,green,wet,2.07,13,1,Deep Aquifer / High Stress
+AQ0254,27.748965,85.311489,Kathmandu,dug,8.69,0.2,2000.0,57.5098,34.78,326.0,4.902,0.462,7.07,urban,dry,1.47,10,0,Moderate Stress
+AQ0255,27.791427,85.306776,Kathmandu,deep_tube,261.33,23.44,262.93,18.4264,14.27,711.7,4.036,0.895,7.96,urban,dry,1.91,2,1,Deep Aquifer / High Stress
+AQ0256,27.77111,85.304573,Kathmandu,deep_tube,111.56,76.26,755.3,55.4218,13.63,1420.7,9.278,0.582,6.86,urban,dry,1.8,3,1,Deep Aquifer / High Stress
+AQ0257,27.6331,85.376651,Kathmandu,shallow_tube,31.29,10.46,55.41,1.2706,43.61,257.9,4.836,0.739,7.28,green,dry,1.46,14,2,Moderate Stress
+AQ0258,27.706445,85.40541,Kathmandu,shallow_tube,38.83,30.08,138.55,3.7417,37.03,446.8,4.502,0.28,7.49,urban,dry,1.02,11,2,Moderate Stress
+AQ0259,27.724676,85.350617,Kathmandu,shallow_tube,43.64,0.5,473.41,53.654,8.82,1268.4,5.093,0.868,7.1,urban,dry,2.33,7,2,Moderate Stress
+AQ0260,27.657576,85.381174,Lalitpur,deep_tube,200.98,17.45,190.56,24.3072,7.84,812.6,1.689,0.482,6.32,urban,dry,1.35,2,1,Deep Aquifer / High Stress
+AQ0261,27.614979,85.22654,Lalitpur,dug,6.05,0.2,163.53,15.7782,10.36,381.5,2.181,0.409,7.16,peri-urban,wet,1.29,2,2,Moderate Stress
+AQ0262,27.669239,85.363447,Kathmandu,shallow_tube,35.68,20.9,2000.0,112.3153,17.81,821.6,2.089,0.433,6.88,peri-urban,dry,0.88,1,0,Moderate Stress
+AQ0263,27.619128,85.304784,Kathmandu,dug,3.53,8.98,160.57,5.6963,28.19,468.4,1.376,0.706,8.04,agriculture,dry,2.19,12,2,Moderate Stress
+AQ0264,27.615943,85.370779,Bhaktapur,shallow_tube,43.31,4.34,242.37,7.0888,34.19,464.8,6.224,0.7,7.35,urban,wet,1.79,4,2,Moderate Stress
+AQ0265,27.75129,85.318539,Kathmandu,shallow_tube,38.61,11.57,227.86,16.0928,14.16,313.3,4.823,0.599,6.95,urban,dry,2.1,1,2,Moderate Stress
+AQ0266,27.617341,85.334591,Bhaktapur,shallow_tube,37.3,6.22,1077.32,22.8159,47.22,231.5,0.172,0.946,6.91,peri-urban,wet,1.92,5,2,Moderate Stress
+AQ0267,27.679825,85.260564,Kathmandu,deep_tube,89.65,2.44,991.61,22.9155,43.27,477.3,5.594,0.58,8.49,peri-urban,dry,0.59,2,2,Moderate Stress
+AQ0268,27.748474,85.257083,Kathmandu,shallow_tube,20.93,12.5,265.13,8.4843,31.25,1098.9,7.856,0.681,5.89,urban,dry,0.32,8,2,Moderate Stress
+AQ0269,27.626212,85.399349,Kathmandu,shallow_tube,42.25,0.5,189.14,6.4935,29.13,305.4,5.778,1.267,7.12,green,wet,1.82,2,2,Moderate Stress
+AQ0270,27.772592,85.32014,Kathmandu,shallow_tube,54.85,13.39,934.51,125.3122,7.46,403.1,5.801,0.52,7.6,urban,dry,0.72,14,0,Moderate Stress
+AQ0271,27.702638,85.378845,Bhaktapur,dug,8.28,4.37,190.99,25.944,7.36,150.4,7.971,1.131,7.53,urban,dry,0.47,1,2,Moderate Stress
+AQ0272,27.754897,85.233608,Kathmandu,shallow_tube,33.75,7.22,696.9,23.9488,29.1,95.5,1.256,0.547,7.57,agriculture,wet,1.65,8,2,Moderate Stress
+AQ0273,27.7862,85.212627,Kathmandu,deep_tube,138.02,1.0,1313.48,31.3282,41.93,213.5,0.207,1.461,7.08,peri-urban,dry,1.16,5,0,Moderate Stress
+AQ0274,27.714171,85.427399,Kathmandu,deep_tube,130.77,31.82,194.45,5.1182,37.99,1318.8,6.851,1.624,7.18,urban,dry,0.8,3,1,Deep Aquifer / High Stress
+AQ0275,27.620751,85.273856,Kathmandu,shallow_tube,42.66,0.5,122.36,9.1061,13.44,245.0,5.412,1.099,7.22,urban,wet,0.48,12,2,Moderate Stress
+AQ0276,27.772686,85.234863,Kathmandu,deep_tube,247.89,33.58,134.93,5.9308,22.75,318.3,2.819,0.917,7.05,green,dry,2.43,9,1,Deep Aquifer / High Stress
+AQ0277,27.777802,85.240158,Kathmandu,shallow_tube,35.42,10.01,373.34,9.6649,38.63,421.0,4.392,1.522,7.38,peri-urban,dry,2.03,7,2,Moderate Stress
+AQ0278,27.736256,85.378996,Lalitpur,dug,5.08,9.29,554.86,12.942,42.87,164.2,7.43,1.138,6.44,urban,dry,1.5,4,2,Moderate Stress
+AQ0279,27.617913,85.378841,Kathmandu,shallow_tube,22.87,7.61,752.03,30.0838,25.0,766.4,2.497,0.333,7.13,urban,wet,1.94,13,2,Moderate Stress
+AQ0280,27.671935,85.371809,Kathmandu,dug,2.56,0.74,762.39,18.3605,41.52,302.5,2.09,1.11,8.0,peri-urban,wet,2.31,1,2,Moderate Stress
+AQ0281,27.679358,85.307803,Kathmandu,dug,6.26,0.2,94.82,2.5523,37.15,307.3,7.772,0.748,6.78,urban,wet,0.42,9,2,Moderate Stress
+AQ0282,27.710796,85.274489,Kathmandu,dug,7.85,0.27,614.04,24.8203,24.74,399.9,2.21,0.417,7.58,peri-urban,dry,2.11,6,2,Moderate Stress
+AQ0283,27.616289,85.308754,Kathmandu,shallow_tube,46.05,0.5,1884.93,192.2998,9.8,681.8,5.046,0.626,6.89,peri-urban,wet,1.15,7,0,Moderate Stress
+AQ0284,27.764228,85.442373,Kathmandu,shallow_tube,50.74,8.12,98.18,3.7938,25.88,529.9,3.975,0.425,6.5,peri-urban,wet,1.07,2,2,Moderate Stress
+AQ0285,27.613055,85.40546,Lalitpur,shallow_tube,45.28,2.46,642.89,94.5755,6.8,765.5,3.153,0.623,6.88,peri-urban,wet,1.33,13,0,Moderate Stress
+AQ0286,27.789376,85.268793,Kathmandu,deep_tube,188.39,14.56,483.59,12.4863,38.73,210.9,6.04,0.364,7.35,urban,wet,0.33,3,1,Deep Aquifer / High Stress
+AQ0287,27.773939,85.422708,Kathmandu,shallow_tube,43.4,3.46,76.87,1.7982,42.75,326.1,4.716,0.523,7.79,urban,wet,1.05,9,2,Moderate Stress
+AQ0288,27.618271,85.389162,Kathmandu,dug,5.02,7.24,391.78,67.6952,5.79,423.6,1.11,0.176,6.53,peri-urban,dry,1.61,8,2,Moderate Stress
+AQ0289,27.793312,85.310185,Kathmandu,deep_tube,208.87,19.19,725.11,20.0176,36.22,753.2,0.815,0.682,6.79,peri-urban,wet,1.06,13,1,Deep Aquifer / High Stress
+AQ0290,27.76257,85.344689,Lalitpur,shallow_tube,52.69,21.73,449.75,25.1593,17.88,173.3,3.581,0.677,6.97,green,dry,0.67,14,2,Moderate Stress
+AQ0291,27.754914,85.254432,Lalitpur,dug,5.32,5.42,150.7,9.188,16.4,443.5,8.458,0.968,7.19,urban,wet,2.34,13,2,Moderate Stress
+AQ0292,27.796818,85.273062,Kathmandu,shallow_tube,16.25,11.72,230.19,23.8382,9.66,605.3,8.224,0.886,7.17,urban,wet,1.79,1,2,Moderate Stress
+AQ0293,27.693812,85.217759,Lalitpur,shallow_tube,48.01,41.47,130.31,5.1392,25.36,617.1,3.722,0.361,6.95,urban,dry,0.57,2,1,Deep Aquifer / High Stress
+AQ0294,27.707455,85.369281,Lalitpur,shallow_tube,54.59,15.15,136.07,3.8499,35.34,207.9,3.191,0.7,7.05,peri-urban,dry,2.3,4,2,Moderate Stress
+AQ0295,27.726127,85.307536,Kathmandu,shallow_tube,45.55,20.52,242.21,5.2599,46.05,922.8,7.716,0.592,7.05,urban,dry,1.68,9,2,Moderate Stress
+AQ0296,27.619112,85.424537,Bhaktapur,deep_tube,139.95,30.31,345.83,26.6416,12.98,364.9,0.875,0.55,7.13,peri-urban,dry,1.99,5,1,Deep Aquifer / High Stress
+AQ0297,27.627149,85.44436,Bhaktapur,dug,4.81,6.76,856.26,95.3749,8.98,197.4,10.655,0.459,7.62,urban,dry,0.45,9,0,Moderate Stress
+AQ0298,27.73159,85.381869,Lalitpur,dug,5.66,0.2,310.55,14.6234,21.24,400.1,9.379,0.67,7.03,urban,dry,2.19,6,2,Moderate Stress
+AQ0299,27.759278,85.348854,Bhaktapur,shallow_tube,64.53,26.28,164.18,4.3067,38.12,416.6,4.749,1.193,6.94,urban,dry,0.62,7,1,Deep Aquifer / High Stress
+AQ0300,27.789099,85.35803,Kathmandu,shallow_tube,49.52,0.55,205.59,9.871,20.83,256.5,8.588,0.637,6.96,urban,wet,0.42,2,2,Moderate Stress
+AQ0301,27.640851,85.356701,Kathmandu,deep_tube,30.0,1.0,211.06,6.7257,31.38,173.4,7.46,0.768,7.13,urban,dry,1.47,3,2,Moderate Stress
+AQ0302,27.727417,85.424667,Kathmandu,dug,5.85,13.32,271.7,10.4204,26.07,329.4,1.879,1.159,6.48,agriculture,dry,1.87,2,2,Moderate Stress
+AQ0303,27.793167,85.243696,Lalitpur,dug,7.86,8.3,376.14,44.054,8.54,197.8,0.817,1.226,6.85,green,wet,1.81,14,2,Moderate Stress
+AQ0304,27.769128,85.358816,Kathmandu,dug,5.59,11.83,782.63,45.7719,17.1,476.8,1.916,0.803,6.76,peri-urban,dry,2.28,6,2,Moderate Stress
+AQ0305,27.753946,85.402734,Kathmandu,deep_tube,234.42,18.21,491.11,34.977,14.04,511.4,8.273,1.604,7.79,urban,dry,1.72,5,1,Deep Aquifer / High Stress
+AQ0306,27.796572,85.334118,Kathmandu,shallow_tube,41.83,11.6,503.38,14.3699,35.03,490.0,3.563,0.711,7.86,urban,dry,2.19,3,2,Moderate Stress
+AQ0307,27.722623,85.239301,Bhaktapur,shallow_tube,42.9,9.79,468.72,9.5555,49.05,62.3,2.193,0.702,6.66,peri-urban,dry,1.5,2,2,Moderate Stress
+AQ0308,27.652135,85.274224,Kathmandu,deep_tube,156.87,23.18,268.7,47.0048,5.72,519.9,2.165,0.391,7.34,agriculture,dry,0.9,9,1,Deep Aquifer / High Stress
+AQ0309,27.75263,85.400562,Kathmandu,shallow_tube,24.87,14.35,811.48,94.8892,8.55,373.6,2.401,1.673,7.63,urban,dry,2.05,8,0,Moderate Stress
+AQ0310,27.694381,85.322578,Lalitpur,deep_tube,48.56,2.32,437.28,10.7365,40.73,114.1,7.355,0.29,6.94,urban,dry,1.31,1,2,Moderate Stress
+AQ0311,27.607032,85.280786,Kathmandu,shallow_tube,28.74,0.5,158.64,9.9426,15.96,1033.8,6.099,1.187,6.99,urban,wet,1.05,1,2,Moderate Stress
+AQ0312,27.789061,85.429269,Kathmandu,shallow_tube,48.31,23.92,936.3,69.3335,13.5,222.4,2.412,1.323,7.48,urban,dry,1.01,4,0,Moderate Stress
+AQ0313,27.708965,85.267436,Lalitpur,shallow_tube,34.32,17.92,524.03,18.7571,27.94,246.0,3.871,0.752,8.0,urban,dry,0.47,2,2,Moderate Stress
+AQ0314,27.724111,85.359588,Lalitpur,dug,6.22,16.43,195.02,21.001,9.29,382.2,1.441,0.827,6.71,green,dry,0.68,7,2,Moderate Stress
+AQ0315,27.612581,85.246837,Kathmandu,shallow_tube,29.84,9.3,142.63,8.8024,16.2,176.3,3.675,0.401,7.28,urban,wet,2.14,2,2,Moderate Stress
+AQ0316,27.777112,85.202503,Bhaktapur,shallow_tube,58.26,3.32,299.38,13.2893,22.53,260.3,3.046,0.651,7.69,urban,dry,0.88,4,2,Moderate Stress
+AQ0317,27.789571,85.264639,Kathmandu,shallow_tube,39.92,4.2,109.48,2.7523,39.78,308.7,5.726,0.869,7.66,urban,dry,0.72,14,2,Moderate Stress
+AQ0318,27.675857,85.211806,Kathmandu,deep_tube,138.0,13.81,299.35,10.8649,27.55,486.2,4.328,0.01,6.52,urban,dry,1.76,7,1,Deep Aquifer / High Stress
+AQ0319,27.61897,85.336032,Lalitpur,shallow_tube,22.93,9.07,371.85,14.3729,25.87,296.0,3.191,1.495,7.65,urban,wet,1.76,14,2,Moderate Stress
+AQ0320,27.643093,85.23012,Bhaktapur,dug,6.78,9.99,85.09,4.1007,20.75,1502.3,3.799,0.313,6.53,peri-urban,dry,2.16,12,2,Moderate Stress
+AQ0321,27.708241,85.400965,Kathmandu,dug,3.99,0.2,128.06,14.5007,8.83,756.4,3.588,1.017,6.59,green,dry,1.84,2,2,Moderate Stress
+AQ0322,27.662302,85.395731,Kathmandu,shallow_tube,31.69,24.41,87.12,3.0391,28.67,294.4,7.9,0.238,6.72,urban,dry,2.35,13,2,Moderate Stress
+AQ0323,27.71239,85.278641,Kathmandu,shallow_tube,26.06,24.8,47.88,1.3643,35.09,792.1,0.274,0.022,6.84,agriculture,dry,1.23,14,2,Moderate Stress
+AQ0324,27.74895,85.242059,Kathmandu,shallow_tube,25.28,5.64,465.35,19.5549,23.8,360.5,1.51,1.286,7.57,green,wet,0.32,12,2,Moderate Stress
+AQ0325,27.602023,85.237202,Lalitpur,shallow_tube,48.82,5.06,165.87,3.8411,43.18,422.7,3.345,0.932,6.88,peri-urban,wet,1.69,8,2,Moderate Stress
+AQ0326,27.700744,85.407551,Lalitpur,shallow_tube,50.97,11.81,675.28,23.4047,28.85,1484.0,5.554,0.867,6.35,urban,wet,0.49,1,2,Moderate Stress
+AQ0327,27.745454,85.358439,Kathmandu,shallow_tube,57.33,16.75,621.84,20.9408,29.7,501.3,4.013,0.781,8.25,green,dry,0.35,6,2,Moderate Stress
+AQ0328,27.702418,85.435173,Kathmandu,shallow_tube,35.42,20.71,97.41,2.1086,46.19,407.6,4.411,0.333,7.17,green,dry,0.88,6,2,Moderate Stress
+AQ0329,27.620581,85.382533,Kathmandu,shallow_tube,19.91,7.67,66.53,7.9214,8.4,1011.3,9.397,0.76,7.54,urban,wet,1.87,8,2,Moderate Stress
+AQ0330,27.744568,85.208122,Kathmandu,shallow_tube,39.74,23.06,353.56,7.0914,49.86,134.2,0.941,0.816,6.6,agriculture,dry,1.19,6,2,Moderate Stress
+AQ0331,27.73704,85.445474,Lalitpur,deep_tube,148.83,17.55,718.25,42.8476,16.76,340.6,0.01,1.493,7.52,peri-urban,wet,1.96,1,1,Deep Aquifer / High Stress
+AQ0332,27.623413,85.332044,Kathmandu,shallow_tube,75.09,11.56,84.77,1.7745,47.77,190.8,0.01,0.01,7.61,peri-urban,dry,1.2,1,2,Moderate Stress
+AQ0333,27.677735,85.310925,Bhaktapur,shallow_tube,41.2,1.49,311.71,7.2745,42.85,422.3,6.298,0.877,7.09,urban,wet,0.75,1,2,Moderate Stress
+AQ0334,27.769102,85.399771,Kathmandu,dug,6.96,6.98,181.55,12.4937,14.53,283.4,8.797,1.032,7.0,urban,wet,1.52,14,2,Moderate Stress
+AQ0335,27.623101,85.281527,Kathmandu,deep_tube,149.94,45.06,1110.01,22.8046,48.67,125.4,8.931,1.136,7.81,urban,dry,0.83,10,1,Deep Aquifer / High Stress
+AQ0336,27.688413,85.283526,Kathmandu,shallow_tube,26.78,27.13,108.69,8.1899,13.27,200.8,6.718,0.01,7.75,urban,dry,1.22,7,2,Moderate Stress
+AQ0337,27.709953,85.313088,Kathmandu,shallow_tube,37.57,9.84,310.95,6.75,46.07,401.3,5.986,0.24,7.7,urban,wet,0.85,9,2,Moderate Stress
+AQ0338,27.690792,85.275416,Kathmandu,deep_tube,99.21,39.87,260.81,8.3669,31.17,1669.9,8.18,0.216,7.23,urban,dry,0.58,6,1,Deep Aquifer / High Stress
+AQ0339,27.77992,85.395483,Kathmandu,dug,4.81,7.38,424.71,13.4581,31.56,178.6,4.864,1.115,7.52,urban,wet,1.99,14,2,Moderate Stress
+AQ0340,27.634336,85.401958,Lalitpur,shallow_tube,28.97,32.44,1929.83,57.1431,33.77,600.3,2.566,1.426,7.05,urban,dry,2.05,6,0,Moderate Stress
+AQ0341,27.77895,85.266917,Kathmandu,deep_tube,168.59,15.28,184.76,11.7148,15.77,160.0,2.487,0.863,6.34,urban,wet,1.27,2,1,Deep Aquifer / High Stress
+AQ0342,27.677612,85.398991,Kathmandu,dug,5.68,8.06,90.75,2.0485,44.3,1280.8,9.241,0.75,7.46,urban,wet,0.34,13,2,Moderate Stress
+AQ0343,27.738826,85.204031,Kathmandu,shallow_tube,28.36,10.17,113.54,2.7596,41.14,1056.5,2.624,1.06,6.94,peri-urban,wet,0.95,14,2,Moderate Stress
+AQ0344,27.604972,85.200979,Kathmandu,shallow_tube,45.54,17.38,154.41,7.6191,20.27,70.4,3.09,0.211,7.61,urban,dry,1.33,1,2,Moderate Stress
+AQ0345,27.777368,85.422214,Lalitpur,dug,8.8,12.33,345.49,13.1194,26.33,202.1,1.587,0.289,7.48,peri-urban,dry,2.25,8,2,Moderate Stress
+AQ0346,27.78769,85.242771,Kathmandu,shallow_tube,38.93,13.5,364.97,7.3467,49.68,152.3,3.128,1.127,7.11,urban,wet,1.56,9,2,Moderate Stress
+AQ0347,27.657369,85.270114,Kathmandu,dug,7.82,2.04,600.34,59.5709,10.08,489.5,7.386,0.528,8.04,urban,wet,2.48,10,2,Moderate Stress
+AQ0348,27.627657,85.306531,Kathmandu,shallow_tube,29.79,0.5,1088.45,54.4689,19.98,206.0,10.042,1.452,7.78,urban,wet,1.1,13,0,Moderate Stress
+AQ0349,27.68665,85.399923,Lalitpur,shallow_tube,21.37,0.97,1098.18,100.846,10.89,518.2,10.372,0.5,7.47,urban,wet,0.77,12,0,Moderate Stress
+AQ0350,27.792439,85.272481,Bhaktapur,shallow_tube,46.95,10.96,241.58,6.8688,35.17,596.5,3.991,0.664,8.04,urban,dry,1.03,10,2,Moderate Stress
+AQ0351,27.661973,85.326877,Kathmandu,deep_tube,31.37,1.0,369.16,13.2469,27.87,170.5,12.681,0.355,6.89,urban,wet,1.87,9,2,Moderate Stress
+AQ0352,27.63593,85.344518,Bhaktapur,shallow_tube,43.12,7.26,820.96,60.0216,13.68,568.8,5.708,0.428,6.68,urban,dry,1.32,10,0,Moderate Stress
+AQ0353,27.600977,85.434165,Kathmandu,deep_tube,277.26,25.39,277.58,7.1146,39.01,219.2,6.844,0.01,8.58,urban,dry,1.8,8,1,Deep Aquifer / High Stress
+AQ0354,27.607557,85.360842,Kathmandu,dug,7.38,0.2,186.96,3.8151,49.0,278.7,4.018,0.705,7.58,urban,wet,1.21,12,2,Moderate Stress
+AQ0355,27.773205,85.243042,Bhaktapur,deep_tube,270.85,38.13,125.85,2.8743,43.78,441.0,6.036,0.366,7.16,urban,dry,1.55,2,1,Deep Aquifer / High Stress
+AQ0356,27.69959,85.277509,Lalitpur,deep_tube,130.4,23.87,424.41,27.7573,15.29,361.2,4.994,0.45,7.75,urban,dry,1.49,5,1,Deep Aquifer / High Stress
+AQ0357,27.658563,85.293775,Kathmandu,shallow_tube,36.74,11.84,248.93,29.6227,8.4,1226.5,3.513,0.29,6.94,peri-urban,wet,1.13,4,2,Moderate Stress
+AQ0358,27.754249,85.209703,Kathmandu,shallow_tube,32.75,20.37,273.14,42.6903,6.4,349.0,1.787,1.347,7.63,agriculture,dry,2.31,1,2,Moderate Stress
+AQ0359,27.764168,85.259086,Lalitpur,shallow_tube,61.69,7.51,198.62,20.7815,9.56,201.2,4.62,1.24,7.6,urban,dry,0.35,9,2,Moderate Stress
+AQ0360,27.780508,85.218326,Bhaktapur,dug,4.26,7.96,1281.11,151.9049,8.43,618.0,4.717,0.485,7.59,urban,wet,1.7,13,0,Moderate Stress
+AQ0361,27.689146,85.40903,Kathmandu,shallow_tube,70.54,14.91,103.59,8.7953,11.78,360.6,2.958,1.032,7.18,peri-urban,wet,1.46,3,2,Moderate Stress
+AQ0362,27.69355,85.268198,Kathmandu,deep_tube,280.42,1.0,292.75,16.476,17.77,1323.0,4.493,0.686,7.16,urban,dry,1.45,8,1,Deep Aquifer / High Stress
+AQ0363,27.686487,85.355793,Kathmandu,shallow_tube,44.46,4.46,426.58,21.2203,20.1,318.1,8.397,1.117,7.97,urban,wet,0.98,9,2,Moderate Stress
+AQ0364,27.798919,85.320497,Lalitpur,shallow_tube,38.83,14.26,731.48,42.0528,17.39,280.5,4.689,0.871,7.21,urban,dry,1.89,5,2,Moderate Stress
+AQ0365,27.783657,85.30201,Kathmandu,shallow_tube,42.76,13.45,326.24,13.9114,23.45,251.0,4.236,0.599,7.29,urban,dry,1.31,6,2,Moderate Stress
+AQ0366,27.705429,85.390991,Kathmandu,deep_tube,201.67,30.1,121.29,17.1116,7.09,957.1,4.144,0.285,7.21,agriculture,wet,0.97,3,1,Deep Aquifer / High Stress
+AQ0367,27.620792,85.440591,Bhaktapur,shallow_tube,41.12,30.09,62.5,1.6514,37.85,1158.7,0.167,0.536,7.24,peri-urban,dry,2.19,6,2,Moderate Stress
+AQ0368,27.751247,85.268982,Bhaktapur,deep_tube,215.65,12.89,1912.99,83.5376,22.9,313.9,3.934,0.269,7.14,urban,dry,0.62,6,0,Moderate Stress
+AQ0369,27.721014,85.339973,Kathmandu,shallow_tube,46.77,11.23,191.52,4.0784,46.96,365.8,6.114,0.389,6.83,urban,dry,1.19,4,2,Moderate Stress
+AQ0370,27.758933,85.314079,Kathmandu,shallow_tube,22.28,12.46,480.75,10.1861,47.2,288.7,6.858,0.583,7.19,urban,wet,1.27,12,2,Moderate Stress
+AQ0371,27.656938,85.421902,Kathmandu,dug,4.26,6.69,227.66,6.2727,36.29,2000.0,1.943,1.115,7.09,urban,wet,2.34,11,2,Moderate Stress
+AQ0372,27.664133,85.338085,Kathmandu,dug,5.13,19.9,118.32,23.5795,5.02,305.7,2.63,0.666,7.17,urban,dry,1.71,7,2,Moderate Stress
+AQ0373,27.605947,85.217933,Lalitpur,shallow_tube,33.84,16.64,761.49,18.0801,42.12,418.6,8.724,0.388,7.24,urban,dry,1.71,10,2,Moderate Stress
+AQ0374,27.795653,85.23963,Kathmandu,shallow_tube,26.46,19.82,222.63,32.6127,6.83,714.4,6.803,0.01,7.33,urban,dry,1.1,6,2,Moderate Stress
+AQ0375,27.733701,85.443157,Lalitpur,dug,7.61,5.15,1324.69,92.294,14.35,569.9,3.142,0.6,7.09,peri-urban,dry,1.57,9,0,Moderate Stress
+AQ0376,27.637677,85.214062,Kathmandu,deep_tube,151.77,1.0,55.84,5.1859,10.77,476.8,3.725,1.409,7.59,peri-urban,wet,0.33,5,2,Moderate Stress
+AQ0377,27.633688,85.390116,Bhaktapur,deep_tube,167.71,18.16,42.41,0.981,43.23,100.4,5.144,1.046,7.92,urban,wet,0.52,10,1,Deep Aquifer / High Stress
+AQ0378,27.659668,85.265756,Kathmandu,shallow_tube,52.33,5.14,302.75,7.0637,42.86,1219.1,9.29,0.621,7.16,urban,wet,1.89,13,2,Moderate Stress
+AQ0379,27.636634,85.347321,Kathmandu,shallow_tube,36.06,14.41,785.3,23.6755,33.17,375.6,3.939,0.207,9.0,urban,dry,1.03,9,2,Moderate Stress
+AQ0380,27.719423,85.306046,Kathmandu,shallow_tube,39.11,25.79,180.36,20.3424,8.87,234.4,2.941,0.065,6.3,peri-urban,dry,1.33,4,2,Moderate Stress
+AQ0381,27.70543,85.383557,Kathmandu,deep_tube,91.47,40.3,233.95,5.4491,42.93,791.6,2.79,0.666,7.28,urban,dry,1.29,2,1,Deep Aquifer / High Stress
+AQ0382,27.728951,85.284915,Lalitpur,shallow_tube,51.76,0.5,1050.47,61.5956,17.05,720.8,4.843,0.149,6.96,green,dry,0.87,1,0,Moderate Stress
+AQ0383,27.76911,85.35274,Kathmandu,deep_tube,214.21,16.47,655.02,36.1618,18.11,188.1,4.09,0.984,7.42,urban,wet,0.61,9,1,Deep Aquifer / High Stress
+AQ0384,27.77431,85.311685,Kathmandu,dug,5.65,0.2,1479.12,30.6467,48.26,850.7,6.642,1.183,7.3,urban,dry,0.47,7,0,Moderate Stress
+AQ0385,27.700724,85.41677,Bhaktapur,shallow_tube,47.26,13.46,555.09,15.5638,35.67,543.4,3.031,0.642,6.43,urban,dry,2.42,10,2,Moderate Stress
+AQ0386,27.721894,85.405144,Kathmandu,dug,6.21,0.2,986.08,30.2748,32.57,844.0,6.385,0.699,6.43,peri-urban,dry,2.15,5,2,Moderate Stress
+AQ0387,27.757808,85.287744,Kathmandu,shallow_tube,42.05,17.01,186.58,5.0871,36.68,371.5,2.904,1.502,6.9,peri-urban,dry,1.29,1,2,Moderate Stress
+AQ0388,27.708515,85.258261,Kathmandu,deep_tube,154.73,16.24,74.38,3.6476,20.39,291.7,3.164,1.197,7.64,peri-urban,dry,0.96,14,1,Deep Aquifer / High Stress
+AQ0389,27.644756,85.433134,Kathmandu,shallow_tube,28.56,19.29,750.38,27.7759,27.02,182.2,1.172,0.241,8.26,peri-urban,wet,2.38,5,2,Moderate Stress
+AQ0390,27.744983,85.42369,Kathmandu,deep_tube,90.1,31.16,533.75,15.1801,35.16,529.7,1.906,0.277,6.93,urban,dry,2.28,6,1,Deep Aquifer / High Stress
+AQ0391,27.694576,85.20977,Lalitpur,dug,7.15,2.09,953.46,26.7471,35.65,219.2,4.888,0.709,6.91,urban,dry,2.25,5,2,Moderate Stress
+AQ0392,27.73347,85.210962,Kathmandu,shallow_tube,10.52,7.32,189.18,5.2534,36.01,169.9,5.859,0.947,7.61,urban,dry,1.88,13,2,Moderate Stress
+AQ0393,27.744257,85.239107,Lalitpur,shallow_tube,32.68,23.08,308.99,8.1978,37.69,334.7,3.763,0.421,6.72,peri-urban,dry,2.44,2,2,Moderate Stress
+AQ0394,27.703526,85.344469,Lalitpur,deep_tube,152.96,16.1,289.58,7.3193,39.56,242.3,8.754,0.86,6.45,urban,wet,2.36,9,1,Deep Aquifer / High Stress
+AQ0395,27.692385,85.411198,Bhaktapur,shallow_tube,31.61,22.48,496.94,12.1769,40.81,323.5,4.274,0.01,6.96,urban,dry,1.58,5,2,Moderate Stress
+AQ0396,27.628916,85.373815,Kathmandu,shallow_tube,38.12,9.38,127.42,2.724,46.78,374.4,1.062,1.164,7.12,peri-urban,dry,0.7,11,2,Moderate Stress
+AQ0397,27.600158,85.402535,Kathmandu,shallow_tube,31.18,10.66,156.03,8.409,18.56,1626.5,5.288,1.032,6.57,urban,wet,0.65,9,2,Moderate Stress
+AQ0398,27.763071,85.42233,Kathmandu,shallow_tube,43.67,7.8,309.91,35.858,8.64,603.4,2.182,0.639,7.38,agriculture,wet,2.03,3,2,Moderate Stress
+AQ0399,27.620589,85.379756,Kathmandu,shallow_tube,27.97,3.6,305.92,10.8025,28.32,299.1,1.983,0.624,7.54,agriculture,dry,1.05,6,2,Moderate Stress
+AQ0400,27.70006,85.369725,Kathmandu,shallow_tube,41.76,10.0,215.83,4.9602,43.51,221.5,7.756,1.409,6.93,urban,wet,1.0,5,2,Moderate Stress
+AQ0401,27.621398,85.379865,Bhaktapur,shallow_tube,17.76,11.6,657.31,31.3765,20.95,181.8,0.01,1.12,7.12,peri-urban,dry,2.38,13,2,Moderate Stress
+AQ0402,27.687372,85.298096,Kathmandu,dug,10.16,8.71,145.82,9.32,15.65,272.9,2.597,0.432,7.49,peri-urban,dry,2.21,2,2,Moderate Stress
+AQ0403,27.623692,85.20341,Kathmandu,shallow_tube,29.89,20.09,72.15,4.6821,15.41,334.3,3.052,0.386,6.65,urban,dry,1.09,7,2,Moderate Stress
+AQ0404,27.719941,85.394122,Lalitpur,shallow_tube,54.52,14.22,220.44,9.8025,22.49,1000.7,4.538,0.518,8.63,urban,dry,1.91,11,2,Moderate Stress
+AQ0405,27.788993,85.320451,Kathmandu,deep_tube,128.9,14.86,289.09,5.8734,49.22,164.2,1.629,0.909,7.58,urban,wet,1.35,1,1,Deep Aquifer / High Stress
+AQ0406,27.798418,85.232588,Lalitpur,shallow_tube,55.66,13.21,314.52,61.603,5.11,643.2,1.448,1.338,6.67,urban,dry,1.87,6,2,Moderate Stress
+AQ0407,27.615918,85.435099,Kathmandu,deep_tube,172.28,34.08,534.78,16.7892,31.85,191.7,4.044,0.01,7.75,urban,dry,1.35,7,1,Deep Aquifer / High Stress
+AQ0408,27.712651,85.361956,Kathmandu,dug,3.55,17.03,190.94,4.7364,40.31,645.2,2.775,0.975,8.0,urban,dry,2.36,5,2,Moderate Stress
+AQ0409,27.79653,85.359262,Kathmandu,deep_tube,77.45,16.59,674.8,18.2808,36.91,280.0,1.076,0.54,6.47,peri-urban,wet,2.02,13,2,Moderate Stress
+AQ0410,27.690652,85.398047,Lalitpur,shallow_tube,28.69,5.07,177.07,12.2726,14.43,678.6,6.317,0.371,7.34,urban,dry,2.33,9,2,Moderate Stress
+AQ0411,27.680929,85.215612,Lalitpur,dug,5.18,5.05,814.96,28.5994,28.5,151.9,0.805,1.057,6.72,peri-urban,wet,0.75,7,2,Moderate Stress
+AQ0412,27.768362,85.400338,Kathmandu,dug,8.39,8.33,331.56,15.859,20.91,185.3,7.945,0.521,6.95,urban,dry,2.18,10,2,Moderate Stress
+AQ0413,27.706696,85.213189,Kathmandu,deep_tube,196.43,41.21,240.32,9.7072,24.76,490.5,1.041,1.102,7.53,agriculture,dry,1.09,8,1,Deep Aquifer / High Stress
+AQ0414,27.646897,85.320162,Kathmandu,shallow_tube,39.8,16.94,74.69,3.036,24.6,1028.3,1.136,0.402,7.54,peri-urban,dry,1.64,10,2,Moderate Stress
+AQ0415,27.673948,85.321514,Kathmandu,dug,5.48,4.52,340.64,9.0031,37.84,360.8,11.645,0.532,6.53,urban,wet,1.59,11,2,Moderate Stress
+AQ0416,27.761469,85.390748,Kathmandu,deep_tube,69.56,6.69,420.56,10.4121,40.39,396.7,6.002,1.012,6.94,urban,wet,1.61,2,2,Moderate Stress
+AQ0417,27.797868,85.36979,Bhaktapur,dug,4.5,9.83,620.32,20.5052,30.25,962.3,4.022,1.276,7.67,urban,dry,1.19,10,2,Moderate Stress
+AQ0418,27.683099,85.300694,Kathmandu,shallow_tube,30.43,16.97,917.07,57.7789,15.87,213.8,2.889,0.818,6.9,agriculture,dry,1.4,2,0,Moderate Stress
+AQ0419,27.676992,85.300574,Lalitpur,deep_tube,137.03,1.81,89.86,12.2225,7.35,274.3,12.942,0.01,7.14,urban,dry,1.7,6,2,Moderate Stress
+AQ0420,27.796478,85.249508,Kathmandu,dug,5.2,12.66,105.51,2.1274,49.59,168.3,4.489,0.328,7.38,urban,dry,0.81,6,2,Moderate Stress
+AQ0421,27.663337,85.369326,Kathmandu,shallow_tube,49.86,10.59,621.41,57.9858,10.72,365.0,2.938,0.01,7.7,urban,dry,1.41,3,0,Moderate Stress
+AQ0422,27.662674,85.273777,Lalitpur,deep_tube,132.94,32.51,222.4,7.0557,31.52,169.3,7.065,0.281,7.3,urban,dry,1.51,11,1,Deep Aquifer / High Stress
+AQ0423,27.781846,85.225439,Kathmandu,dug,8.37,2.13,194.18,9.1612,21.2,338.3,10.215,0.259,7.53,urban,wet,0.84,10,2,Moderate Stress
+AQ0424,27.620676,85.245166,Kathmandu,shallow_tube,39.82,2.47,66.94,2.0778,32.22,899.6,8.837,0.202,7.42,urban,dry,0.37,1,2,Moderate Stress
+AQ0425,27.679617,85.206612,Kathmandu,deep_tube,127.88,36.12,857.71,147.6754,5.81,404.7,0.796,0.506,7.3,green,dry,0.72,13,0,Moderate Stress
+AQ0426,27.767277,85.407548,Bhaktapur,shallow_tube,68.83,0.5,122.39,3.1071,39.39,539.8,6.45,0.54,7.53,green,dry,0.47,10,2,Moderate Stress
+AQ0427,27.771553,85.323746,Kathmandu,shallow_tube,35.79,0.62,334.69,7.3334,45.64,374.9,6.146,0.512,7.87,peri-urban,dry,2.03,4,2,Moderate Stress
+AQ0428,27.788193,85.321593,Kathmandu,shallow_tube,43.28,29.15,290.78,7.4782,38.88,1447.0,1.295,0.077,7.31,peri-urban,dry,1.0,11,2,Moderate Stress
+AQ0429,27.778431,85.317618,Kathmandu,deep_tube,125.42,46.11,675.65,19.7063,34.29,261.3,6.166,0.992,8.35,urban,dry,1.33,2,1,Deep Aquifer / High Stress
+AQ0430,27.634152,85.256709,Kathmandu,shallow_tube,20.66,7.23,539.41,19.8912,27.12,246.1,2.282,1.021,7.54,peri-urban,wet,1.85,6,2,Moderate Stress
+AQ0431,27.671563,85.268864,Lalitpur,shallow_tube,52.91,7.91,200.03,4.6212,43.29,262.3,5.193,0.914,7.58,urban,wet,2.4,12,2,Moderate Stress
+AQ0432,27.663637,85.241497,Lalitpur,shallow_tube,73.8,8.71,209.42,12.2643,17.08,395.0,0.939,1.11,6.75,urban,wet,1.77,14,2,Moderate Stress
+AQ0433,27.749463,85.213261,Kathmandu,shallow_tube,16.84,8.72,147.18,8.3954,17.53,471.1,3.191,0.294,7.52,peri-urban,wet,2.16,8,2,Moderate Stress
+AQ0434,27.74858,85.371401,Lalitpur,shallow_tube,46.62,18.62,73.65,1.5222,48.38,467.8,2.721,1.209,7.26,peri-urban,dry,0.64,13,2,Moderate Stress
+AQ0435,27.600604,85.261983,Bhaktapur,deep_tube,206.16,30.14,322.79,24.5377,13.15,331.1,8.064,0.639,7.27,urban,dry,0.67,9,1,Deep Aquifer / High Stress
+AQ0436,27.773824,85.338532,Lalitpur,deep_tube,225.04,21.95,140.16,2.8857,48.57,790.0,3.089,0.414,5.9,urban,wet,0.88,5,1,Deep Aquifer / High Stress
+AQ0437,27.632555,85.322284,Lalitpur,shallow_tube,39.53,0.5,538.53,16.3261,32.99,168.3,1.494,0.995,7.82,urban,wet,2.1,6,2,Moderate Stress
+AQ0438,27.760852,85.364789,Kathmandu,shallow_tube,32.51,27.61,159.53,6.7614,23.59,1097.0,4.44,0.862,7.45,urban,dry,0.68,9,2,Moderate Stress
+AQ0439,27.731229,85.420464,Kathmandu,shallow_tube,14.34,7.29,146.5,8.5744,17.09,225.6,3.616,0.972,6.82,urban,dry,2.25,1,2,Moderate Stress
+AQ0440,27.760928,85.234474,Lalitpur,shallow_tube,11.38,20.4,1154.42,33.4658,34.5,358.4,1.614,1.376,7.19,urban,dry,2.11,8,0,Moderate Stress
+AQ0441,27.690309,85.302005,Lalitpur,dug,7.74,10.69,215.33,4.5079,47.77,822.7,5.838,0.895,6.99,urban,dry,0.92,3,2,Moderate Stress
+AQ0442,27.693448,85.260021,Bhaktapur,shallow_tube,49.61,15.04,630.23,28.5964,22.04,861.5,1.862,0.847,7.1,urban,dry,1.59,10,2,Moderate Stress
+AQ0443,27.642747,85.249238,Kathmandu,dug,2.36,14.7,352.29,29.336,12.01,360.2,4.198,1.827,7.14,urban,dry,1.53,6,2,Moderate Stress
+AQ0444,27.63434,85.363441,Kathmandu,dug,6.14,2.44,297.82,25.5025,11.68,657.1,5.638,0.527,7.67,green,dry,1.81,3,2,Moderate Stress
+AQ0445,27.663131,85.221735,Kathmandu,dug,9.74,3.91,227.46,7.0511,32.26,422.7,10.08,0.417,7.68,urban,dry,0.82,6,2,Moderate Stress
+AQ0446,27.749641,85.426493,Bhaktapur,shallow_tube,48.81,4.84,480.49,12.5055,38.42,800.3,7.349,0.811,7.75,peri-urban,dry,1.76,8,2,Moderate Stress
+AQ0447,27.671194,85.271026,Kathmandu,shallow_tube,35.49,0.5,362.49,42.1542,8.6,445.7,5.308,0.646,6.86,urban,dry,1.41,4,2,Moderate Stress
+AQ0448,27.752132,85.320181,Bhaktapur,shallow_tube,28.52,10.65,777.51,53.2494,14.6,945.4,5.52,0.737,7.11,urban,wet,0.86,4,0,Moderate Stress
+AQ0449,27.632879,85.401027,Lalitpur,dug,3.67,7.24,67.87,2.8865,23.51,265.0,8.963,1.034,6.56,urban,dry,1.55,8,2,Moderate Stress
+AQ0450,27.603222,85.229261,Kathmandu,dug,6.51,7.01,965.78,49.3831,19.56,400.1,2.715,0.679,8.0,urban,dry,1.05,7,0,Moderate Stress
+AQ0451,27.798403,85.371663,Lalitpur,shallow_tube,36.25,10.75,714.85,20.7456,34.46,600.7,8.143,0.416,7.08,urban,dry,2.48,8,2,Moderate Stress
+AQ0452,27.61447,85.419633,Kathmandu,shallow_tube,24.72,0.5,61.86,1.6533,37.42,605.5,7.631,1.053,7.32,urban,dry,0.83,9,2,Moderate Stress
+AQ0453,27.616533,85.231542,Kathmandu,shallow_tube,40.63,8.13,296.06,12.3856,23.9,238.6,4.166,0.815,7.47,urban,dry,2.11,11,2,Moderate Stress
+AQ0454,27.739046,85.3045,Kathmandu,shallow_tube,49.81,11.96,163.9,7.5146,21.81,511.8,0.62,1.015,6.91,urban,dry,1.82,6,2,Moderate Stress
+AQ0455,27.612182,85.30721,Kathmandu,dug,3.65,4.23,70.59,2.5549,27.63,119.5,4.914,0.81,6.1,urban,wet,2.22,13,2,Moderate Stress
+AQ0456,27.725744,85.338432,Bhaktapur,shallow_tube,46.57,18.17,139.11,4.9445,28.13,351.8,7.278,0.657,6.98,urban,dry,2.12,6,2,Moderate Stress
+AQ0457,27.744298,85.201482,Kathmandu,deep_tube,101.99,17.16,397.37,27.8426,14.27,498.8,5.621,1.166,6.86,urban,dry,2.42,9,2,Moderate Stress
+AQ0458,27.772715,85.432315,Kathmandu,deep_tube,177.65,1.0,599.68,30.7199,19.52,714.9,6.011,0.717,6.34,peri-urban,dry,1.29,10,1,Deep Aquifer / High Stress
+AQ0459,27.790819,85.39379,Lalitpur,shallow_tube,35.4,4.51,1268.15,55.7945,22.73,256.1,3.793,0.327,7.94,peri-urban,dry,0.88,9,0,Moderate Stress
+AQ0460,27.729739,85.359361,Kathmandu,dug,4.13,10.47,918.65,56.1927,16.35,279.6,2.467,0.186,7.23,urban,wet,2.45,13,0,Moderate Stress
+AQ0461,27.712563,85.211831,Kathmandu,shallow_tube,52.48,13.51,608.54,49.5877,12.27,483.6,1.305,1.476,6.93,agriculture,dry,2.31,14,2,Moderate Stress
+AQ0462,27.614849,85.225944,Lalitpur,dug,3.48,6.03,262.27,9.2694,28.29,772.3,4.964,0.01,6.74,urban,wet,1.86,6,2,Moderate Stress
+AQ0463,27.71207,85.205435,Kathmandu,shallow_tube,65.64,7.31,63.96,2.6912,23.77,369.8,8.038,0.335,7.03,urban,wet,2.15,8,2,Moderate Stress
+AQ0464,27.71511,85.437648,Bhaktapur,dug,4.69,3.01,482.19,21.2671,22.67,57.9,5.993,0.46,7.97,urban,wet,1.44,8,2,Moderate Stress
+AQ0465,27.748156,85.396047,Lalitpur,shallow_tube,30.94,6.9,149.34,7.5346,19.82,336.6,0.454,0.834,6.53,green,dry,1.25,2,2,Moderate Stress
+AQ0466,27.620415,85.350353,Bhaktapur,dug,7.73,5.98,332.0,11.6406,28.52,291.9,0.354,0.511,7.88,green,wet,1.38,12,2,Moderate Stress
+AQ0467,27.78866,85.331943,Kathmandu,shallow_tube,35.75,1.07,204.4,4.5144,45.28,524.0,8.489,0.677,8.04,urban,wet,0.89,14,2,Moderate Stress
+AQ0468,27.717346,85.398978,Kathmandu,shallow_tube,48.19,12.23,323.67,25.5621,12.66,204.7,5.625,0.82,7.47,urban,dry,0.71,2,2,Moderate Stress
+AQ0469,27.626957,85.324019,Kathmandu,dug,6.32,7.99,251.9,7.4732,33.71,274.4,3.93,0.753,7.34,green,wet,0.68,1,2,Moderate Stress
+AQ0470,27.626413,85.266474,Kathmandu,dug,7.19,11.79,842.75,17.9082,47.06,304.1,5.56,0.776,7.19,urban,wet,0.8,9,2,Moderate Stress
+AQ0471,27.790784,85.403552,Bhaktapur,dug,7.44,13.46,100.98,3.82,26.44,1315.1,2.018,0.944,7.28,peri-urban,wet,2.37,13,2,Moderate Stress
+AQ0472,27.600754,85.357844,Kathmandu,shallow_tube,16.01,7.5,2000.0,88.2469,22.66,670.8,4.422,0.01,7.75,urban,wet,0.86,9,0,Moderate Stress
+AQ0473,27.695188,85.230646,Bhaktapur,shallow_tube,28.38,28.66,127.88,3.5475,36.05,846.7,0.415,0.585,8.15,peri-urban,dry,2.31,12,2,Moderate Stress
+AQ0474,27.637774,85.26715,Kathmandu,deep_tube,244.16,8.47,179.01,4.5803,39.08,234.8,0.71,0.01,6.84,peri-urban,wet,0.69,1,1,Deep Aquifer / High Stress
+AQ0475,27.60895,85.27411,Kathmandu,dug,3.98,1.18,1198.78,32.0734,37.38,188.8,1.483,0.974,7.14,urban,dry,1.89,9,0,Moderate Stress
+AQ0476,27.78696,85.410231,Lalitpur,shallow_tube,73.65,4.44,468.29,15.197,30.81,1277.4,1.12,0.3,7.24,peri-urban,wet,0.36,1,2,Moderate Stress
+AQ0477,27.699011,85.411634,Kathmandu,shallow_tube,33.81,3.26,120.02,7.0938,16.92,885.5,4.522,0.411,7.79,urban,wet,1.73,11,2,Moderate Stress
+AQ0478,27.649975,85.354054,Kathmandu,deep_tube,102.63,10.79,414.28,9.0638,45.71,198.8,0.01,0.191,7.25,agriculture,wet,1.11,13,2,Moderate Stress
+AQ0479,27.726535,85.444003,Kathmandu,shallow_tube,47.06,20.77,675.11,15.508,43.53,331.6,0.806,0.88,7.43,agriculture,wet,0.66,8,2,Moderate Stress
+AQ0480,27.747005,85.247155,Kathmandu,shallow_tube,37.64,17.09,484.52,30.2096,16.04,215.5,5.137,0.633,7.97,peri-urban,dry,1.54,3,2,Moderate Stress
+AQ0481,27.68189,85.419078,Kathmandu,dug,7.34,0.2,327.5,7.1099,46.06,339.0,9.156,0.946,6.74,urban,dry,1.13,9,2,Moderate Stress
+AQ0482,27.752849,85.334904,Kathmandu,shallow_tube,22.03,5.0,269.45,8.4605,31.85,465.9,2.045,0.88,7.04,urban,wet,1.71,2,2,Moderate Stress
+AQ0483,27.652881,85.331906,Kathmandu,deep_tube,282.51,48.0,194.07,7.9351,24.46,508.8,6.968,0.211,6.67,urban,dry,0.95,5,1,Deep Aquifer / High Stress
+AQ0484,27.739288,85.241157,Kathmandu,shallow_tube,62.5,10.15,1877.27,169.7011,11.06,506.1,1.298,0.592,6.34,agriculture,dry,1.08,13,0,Moderate Stress
+AQ0485,27.651251,85.295049,Bhaktapur,shallow_tube,59.33,3.66,1423.78,34.2311,41.59,406.4,9.158,0.652,7.35,urban,dry,2.32,5,0,Moderate Stress
+AQ0486,27.795771,85.420063,Kathmandu,dug,5.32,2.56,38.63,5.5557,6.95,211.9,3.107,0.01,7.11,peri-urban,wet,2.4,5,2,Moderate Stress
+AQ0487,27.723122,85.223762,Bhaktapur,deep_tube,187.78,22.39,337.56,7.0128,48.13,308.6,0.811,0.352,6.82,peri-urban,dry,1.71,2,1,Deep Aquifer / High Stress
+AQ0488,27.705887,85.298872,Kathmandu,shallow_tube,42.65,21.96,274.59,29.6828,9.25,735.9,4.32,1.132,7.51,urban,dry,0.37,3,2,Moderate Stress
+AQ0489,27.613846,85.252597,Kathmandu,shallow_tube,18.74,0.5,936.13,49.4024,18.95,178.9,11.626,0.807,7.78,urban,dry,0.85,14,0,Moderate Stress
+AQ0490,27.675832,85.285069,Lalitpur,deep_tube,228.83,23.19,187.01,9.2689,20.18,716.9,5.025,0.764,6.34,urban,dry,0.62,5,1,Deep Aquifer / High Stress
+AQ0491,27.630684,85.305284,Kathmandu,shallow_tube,63.16,2.71,230.5,6.1125,37.71,248.9,2.969,0.64,7.65,agriculture,wet,2.03,6,2,Moderate Stress
+AQ0492,27.608781,85.363425,Lalitpur,deep_tube,62.77,8.34,626.39,13.7205,45.65,515.0,3.212,0.324,7.5,green,wet,1.27,3,2,Moderate Stress
+AQ0493,27.677931,85.385401,Kathmandu,shallow_tube,54.91,14.84,216.28,5.9596,36.29,480.5,2.497,0.471,7.18,urban,dry,1.36,1,2,Moderate Stress
+AQ0494,27.733585,85.223367,Kathmandu,dug,8.38,4.07,51.17,1.8269,28.01,393.1,6.608,0.92,7.08,peri-urban,wet,2.32,3,2,Moderate Stress
+AQ0495,27.763452,85.34006,Kathmandu,shallow_tube,50.68,6.82,205.98,9.1718,22.46,327.0,6.032,0.626,6.82,urban,wet,1.02,7,2,Moderate Stress
+AQ0496,27.74433,85.218665,Bhaktapur,dug,5.91,11.72,224.67,6.4762,34.69,772.0,6.338,0.217,7.23,urban,dry,1.18,1,2,Moderate Stress
+AQ0497,27.639937,85.326592,Lalitpur,deep_tube,181.92,12.82,823.28,72.5949,11.34,581.3,1.522,0.534,7.19,urban,wet,1.91,7,0,Moderate Stress
+AQ0498,27.633941,85.379615,Lalitpur,shallow_tube,54.92,22.62,186.52,17.5056,10.65,511.5,5.911,0.866,7.93,urban,dry,1.81,5,2,Moderate Stress
+AQ0499,27.724393,85.298839,Lalitpur,shallow_tube,57.78,0.5,982.56,27.942,35.16,570.0,4.882,1.161,6.87,peri-urban,wet,1.57,6,2,Moderate Stress
+AQ0500,27.653898,85.260679,Bhaktapur,dug,7.51,9.56,404.92,12.0755,33.53,556.2,2.476,1.185,7.02,urban,dry,1.32,8,2,Moderate Stress
