@@ -300,18 +300,18 @@ Feature importance scores derived from the Random Forest model reveal the hierar
 This confirms that the fundamental physical state of the aquifer is the primary determinant of water insecurity, followed by water quality and infrastructure access.
 
 \subsection{Scenario Testing}
-To validate real-world applicability, three specific test cases were simulated (Table~\ref{tab:scenarios}).
+To validate real-world applicability, three specific test cases were simulated using actual aquifer locations from the generated dataset (Table~\ref{tab:scenarios}).
 
 \begin{table}[H]
-\caption{Scenario Testing Results}
+\caption{Scenario Testing Results with Aquifer Characteristics}
 \begin{center}
-\begin{tabular}{llcc}
+\begin{tabular}{lcccc}
 \toprule
-\textbf{Scenario} & \textbf{Context} & \textbf{Aquifer} & \textbf{Prediction} \\
+\textbf{Scenario} & \textbf{Depth (m)} & \textbf{Depletion (m/yr)} & \textbf{HH Size} & \textbf{Prediction} \\
 \midrule
-Case 1 & Secure Household & Moderate & Low Risk \\
-Case 2 & Vulnerable Household & Moderate & Moderate Risk \\
-Case 3 & Vulnerable Household & Critical & High Risk \\
+Case 1 & 6.49 & 0.31 & 4 & Low Risk \\
+Case 2 & 24.94 & 1.71 & 6 & Moderate Risk \\
+Case 3 & 51.05 & 3.15 & 8 & High Risk \\
 \bottomrule
 \end{tabular}
 \label{tab:scenarios}
@@ -319,12 +319,14 @@ Case 3 & Vulnerable Household & Critical & High Risk \\
 \end{table}
 
 \begin{itemize}
-\item \textbf{Case 1}: A household with multiple water sources (piped + well) remains secure even in a moderately stressed aquifer
-\item \textbf{Case 2}: A household in the same aquifer location but without reliable infrastructure faces increased risk
-\item \textbf{Case 3}: A vulnerable household in a Deep/High Stress aquifer zone (Depth $>$ 75 m, Depletion $>$ 1.8 m/yr) is correctly classified as High Risk
+\item \textbf{Case 1 (Low Risk)}: A household in Bhaktapur with multiple water sources (piped water + groundwater well) located near a shallow, stable aquifer (water table depth: 6.49 m, depletion rate: 0.31 m/yr). Despite moderate household size (4 members), good infrastructure and minimal aquifer stress result in Low Risk classification.
+
+\item \textbf{Case 2 (Moderate Risk)}: A vulnerable household in Bhaktapur (6 members) relying solely on tanker water during the dry season. Located near a moderately stressed aquifer (depth: 24.94 m, depletion: 1.71 m/yr). The combination of medium aquifer stress, lack of reliable infrastructure, and larger household size correctly yields Moderate Risk.
+
+\item \textbf{Case 3 (High Risk)}: A large household in Kathmandu (8 members) with no piped water access during the dry season, located near a critically depleted aquifer in the Deep/High Stress cluster (depth: 51.05 m, depletion: 3.15 m/yr). The extreme aquifer conditions combined with maximum household vulnerability correctly classify this as High Risk.
 \end{itemize}
 
-These results demonstrate that the model appropriately integrates both hydrogeological conditions and household infrastructure factors.
+These results demonstrate that the model appropriately integrates both hydrogeological conditions (water table depth and depletion rate) and household infrastructure factors (water source access and household size) to produce accurate risk classifications across the full spectrum of insecurity levels.
 
 \section{Discussion}
 
@@ -516,23 +518,23 @@ if __name__ == "__main__":
     test_cases = [
         {
             "label": "Case 1: Secure Household (Low Risk)",
-            "lat": 27.72, "lon": 85.38, 
-            "district": "Kathmandu", "season": "wet",
+            "lat": 27.75, "lon": 85.24, 
+            "district": "Bhaktapur", "season": "wet",
             "household_size": 4, "uses_piped": 1, 
             "uses_well": 1, "uses_tanker": 0
         },
         {
             "label": "Case 2: Vulnerable Household (Moderate Risk)",
-            "lat": 27.72, "lon": 85.38, 
-            "district": "Kathmandu", "season": "dry",
-            "household_size": 4, "uses_piped": 0, 
+            "lat": 27.75, "lon": 85.28, 
+            "district": "Bhaktapur", "season": "dry",
+            "household_size": 6, "uses_piped": 0, 
             "uses_well": 0, "uses_tanker": 1
         },
         {
             "label": "Case 3: Critical Zone (High Risk)",
-            "lat": 27.769, "lon": 85.302, 
+            "lat": 27.60, "lon": 85.30, 
             "district": "Kathmandu", "season": "dry",
-            "household_size": 6, "uses_piped": 0, 
+            "household_size": 8, "uses_piped": 0, 
             "uses_well": 0, "uses_tanker": 1
         }
     ]
