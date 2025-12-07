@@ -24,7 +24,6 @@ def main():
     print("Starting ML Pipeline...")
     
     scripts = [
-        "data_generation.py",
         "aquifer_clustering.py",
         "merge_data.py",
         "predict.py"
