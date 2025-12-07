@@ -11,8 +11,8 @@ pip-log.txt
 pip-delete-this-directory.txt
 
 # Data and Outputs
-data/
-outputs/
+# data/
+# outputs/
 
 # IDEs
 .vscode/
