@@ -411,11 +411,10 @@ import pandas as pd
 import numpy as np
 import joblib
 import os
-from scipy.spatial.distance import cdist
 
 def get_nearest_aquifer_info(lat, lon, aquifer_df):
     """
-    Find nearest aquifer well and return its properties.
+    Find the nearest aquifer well and return its properties.
     
     Parameters:
     -----------
@@ -428,11 +427,12 @@ def get_nearest_aquifer_info(lat, lon, aquifer_df):
     --------
     Series containing nearest well information
     """
-    coords = np.array([[lat, lon]])
-    aquifer_coords = aquifer_df[['lat', 'lon']].values
-    distances = cdist(coords, aquifer_coords, metric='euclidean')
-    nearest_idx = np.argmin(distances)
-    return aquifer_df.iloc[nearest_idx]
+    # Calculate Euclidean distance
+    distances = np.sqrt((aquifer_df['lat'] - lat)**2 + 
+                       (aquifer_df['lon'] - lon)**2)
+    nearest_idx = distances.idxmin()
+    nearest_well = aquifer_df.iloc[nearest_idx]
+    return nearest_well
 
 def predict_water_insecurity(lat, lon, district, season, 
                            household_size, uses_piped, 
@@ -455,26 +455,24 @@ def predict_water_insecurity(lat, lon, district, season,
         
     Returns:
     --------
-    prediction : str
+    prediction_class : str
         Risk class ('Low', 'Moderate', 'High')
-    nearest_well : dict
+    nearest_well : Series
         Nearest aquifer well information
     """
     # Load trained model and resources
-    try:
-        script_dir = os.path.dirname(os.path.abspath(__file__))
-        outputs_dir = os.path.join(script_dir, '../outputs')
-        data_dir = os.path.join(script_dir, '../data/processed')
-        
-        model = joblib.load(os.path.join(outputs_dir, 
-                           'water_insecurity_model.joblib'))
-        features = joblib.load(os.path.join(outputs_dir, 
-                              'model_features.joblib'))
-        aquifer_df = pd.read_csv(os.path.join(data_dir, 
-                                 'kathmandu_aquifer_clustered.csv'))
-    except FileNotFoundError as e:
-        print(f"Error loading resources: {e}")
-        return None, None
+    script_dir = os.path.dirname(os.path.abspath(__file__))
+    outputs_dir = os.path.join(script_dir, '../outputs')
+    data_dir = os.path.join(script_dir, '../data/processed')
+    
+    model = joblib.load(os.path.join(outputs_dir, 
+                       'water_insecurity_model.joblib'))
+    features = joblib.load(os.path.join(outputs_dir, 
+                          'model_features.joblib'))
+    le = joblib.load(os.path.join(outputs_dir, 
+                    'label_encoder.joblib'))
+    aquifer_df = pd.read_csv(os.path.join(data_dir, 
+                             'kathmandu_aquifer_clustered.csv'))
     
     # Get nearest aquifer information
     nearest_well = get_nearest_aquifer_info(lat, lon, aquifer_df)
@@ -511,12 +509,15 @@ def predict_water_insecurity(lat, lon, district, season,
         df_input.loc[0, district_col] = 1
     
     # Make prediction
-    prediction = model.predict(df_input)[0]
+    prediction_idx = model.predict(df_input)[0]
+    prediction_class = le.inverse_transform([prediction_idx])[0]
     
-    return prediction, nearest_well.to_dict()
+    return prediction_class, nearest_well
 
 # Example usage and scenario testing
 if __name__ == "__main__":
+    print("=== Water Insecurity Prediction Tool ===")
+    
     test_cases = [
         {
             "label": "Case 1: Secure Household (Low Risk)",
@@ -542,18 +543,22 @@ if __name__ == "__main__":
     ]
     
     for case in test_cases:
-        print(f"\nTesting: {case['label']}")
-        result, well_info = predict_water_insecurity(
+        print(f"\n{'='*40}")
+        print(f"Testing {case['label']}")
+        print(f"{'='*40}")
+        
+        prediction_class, nearest_well = predict_water_insecurity(
             case["lat"], case["lon"], case["district"], 
             case["season"], case["household_size"], 
             case["uses_piped"], case["uses_well"], 
             case["uses_tanker"]
         )
-        if result:
-            print(f"Predicted Risk: {result}")
-            print(f"Aquifer Depth: {well_info['water_table_depth_m']:.2f}m")
-            print(f"Depletion Rate: "
-                  f"{well_info['depletion_rate_m_per_year']:.2f}m/yr")
+        
+        print(f"Prediction: {prediction_class} Risk")
+        print(f"Aquifer Context: Depth "
+              f"{nearest_well['water_table_depth_m']}m, "
+              f"Depletion {nearest_well['depletion_rate_m_per_year']}"
+              f"m/yr")
 \end{lstlisting}
 
 \end{document}

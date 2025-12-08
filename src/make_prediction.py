@@ -146,44 +146,5 @@ def main():
             print(f"Prediction: {color}{prediction_class} Risk{reset}")
             print(f"Aquifer Context: Depth {nearest_well['water_table_depth_m']}m, Depletion {nearest_well['depletion_rate_m_per_year']}m/yr")
 
-def interpret_score(score):
-    """Provide context for the water insecurity score."""
-    # Load predictions to compare against population
-    try:
-        script_dir = os.path.dirname(os.path.abspath(__file__))
-        predictions_path = os.path.join(script_dir, '../outputs/predictions.csv')
-        df_pred = pd.read_csv(predictions_path)
-        
-        # Calculate percentile
-        percentile = (df_pred['actual'] < score).mean() * 100
-        
-        print(f"\nInterpretation:")
-        print(f"  • This score is higher than {percentile:.1f}% of households in the valley.")
-        
-        # Qualitative category
-        if score < 20:
-            category = "LOW"
-            desc = "Water is generally secure. Standard monitoring recommended."
-            color = "\033[92m" # Green
-        elif score < 40:
-            category = "MODERATE"
-            desc = "Some stress factors present. Conservation measures advised."
-            color = "\033[93m" # Yellow
-        elif score < 60:
-            category = "HIGH"
-            desc = "Significant water insecurity. Immediate interventions needed."
-            color = "\033[91m" # Red
-        else:
-            category = "SEVERE"
-            desc = "Critical water scarcity. Emergency supply likely required."
-            color = "\033[95m" # Magenta
-            
-        reset = "\033[0m"
-        print(f"  • Category: {color}{category}{reset}")
-        print(f"  • Implication: {desc}")
-        
-    except Exception as e:
-        print(f"  (Could not load comparison data: {e})")
-
 if __name__ == "__main__":
     main()
