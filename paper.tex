@@ -99,10 +99,43 @@ K-Means clustering has been effectively used to delineate groundwater potential 
 While hydrogeological studies and socio-economic assessments exist independently, there is a gap in computational models that link physical aquifer parameters directly to household-level water insecurity metrics. This study addresses this gap by developing an integrated ML framework suitable for data-constrained developing urban contexts.
 
 \section{The Data Set}
-The dataset utilized in this research is modeled based on hydrogeological and satellite observation data from the International Centre for Integrated Mountain Development (ICIMOD) portal, the Groundwater Resources Development Board (GWRDB) \cite{icimod, gwrdb}, groundwater quality data from Kathmandu Upatyaka Khanepani Limited (KUKL) via PANGAEA Data Publisher \cite{kathmandu_gw}, and public repositories such as Kaggle. It simulates the complex interactions between aquifer characteristics and household socio-economic factors in the Kathmandu Valley.
+
+\textbf{Important Disclaimer:} This study utilizes a \textit{synthetic dataset} specifically generated for this research. The dataset is modeled based on hydrogeological patterns, satellite observations, and water quality parameters from authoritative sources including the International Centre for Integrated Mountain Development (ICIMOD) \cite{icimod}, the Groundwater Resources Development Board (GWRDB) \cite{gwrdb}, and Kathmandu Upatyaka Khanepani Limited (KUKL) via PANGAEA Data Publisher \cite{kathmandu_gw}. While the synthetic data reflects realistic patterns and distributions observed in the Kathmandu Valley, it does not represent actual household-level measurements.
+
+\subsection{Rationale for Using a Synthetic Dataset}
+A synthetic dataset was used in this study due to the limited availability, accessibility, and completeness of high-resolution groundwater and household-level socio-economic data for the Kathmandu Valley. Many relevant datasets are either confidential, fragmented across institutions, or lack the temporal or spatial granularity required for robust machine learning experiments. Constructing a synthetic dataset allowed the incorporation of domain-informed patterns while ensuring consistency, completeness, and control over variable distributions. This approach also provides a safe mechanism for exploratory modeling without exposing sensitive household-level information.
+
+\subsection{Dataset Composition}
+The synthetic dataset comprises 2,000 households and 500 aquifer wells distributed across three districts (Kathmandu, Lalitpur, Bhaktapur) within the valley. Each household is spatially linked to the nearest aquifer well, enabling integration of hydrogeological conditions with household vulnerability factors.
+
+\subsection{Variable Description}
+Table~\ref{tab:variables} summarizes the primary variables included in the synthetic dataset, grouped into hydrogeological, groundwater quality, and socio-economic categories. These variables are constructed to approximate realistic patterns observed in the Kathmandu Valley, while maintaining the flexibility required for evaluating the modeling framework.
+
+\begin{table}[H]
+\centering
+\caption{Summary of Variables in the Synthetic Dataset}
+\label{tab:variables}
+\begin{tabular}{|p{3.2cm}|p{4.8cm}|}
+\hline
+\textbf{Variable Category} & \textbf{Example Variables} \\
+\hline
+Hydrogeological & Water table depth, depletion rate, aquifer thickness, transmissivity, hydraulic conductivity \\
+\hline
+Groundwater Quality & pH, total dissolved solids (TDS), nitrate concentration, fluoride levels \\
+\hline
+Socio-economic & Household size, water source access (piped, well, tanker), district location \\
+\hline
+Spatial Attributes & Latitude, longitude, district, aquifer cluster label (K-Means derived) \\
+\hline
+Temporal & Season (wet/dry) \\
+\hline
+Outcome Variable & Water Insecurity Index (0-100), classified into Low/Moderate/High risk \\
+\hline
+\end{tabular}
+\end{table}
 
 \subsection{Feature Description}
-The dataset consists of distinct features used for training, encompassing hydrogeological, spatial, and household attributes.
+The dataset consists of distinct features used for training, encompassing hydrogeological, spatial, and household attributes:
 \begin{itemize}
     \item \textbf{Spatial:} \texttt{lat}, \texttt{lon}, \texttt{district} (Kathmandu, Lalitpur, Bhaktapur).
     \item \textbf{Hydrogeological:} \texttt{water\_table\_depth\_m}, \texttt{depletion\_rate\_m\_per\_year}, \texttt{aquifer\_cluster}.
@@ -112,12 +145,24 @@ The dataset consists of distinct features used for training, encompassing hydrog
 \end{itemize}
 
 \subsection{Target Variable Generation}
-The target variable, \texttt{insecurity\_class}, was derived from a composite Water Insecurity Index (WII) (0-100). The classification logic is defined as:
+The target variable, \texttt{insecurity\_class}, was derived from a composite Water Insecurity Index (WII) (0-100) calculated using a weighted combination of aquifer stress indicators, water quality parameters, household size, and water source diversity. The classification logic is defined as:
 \begin{itemize}
     \item \textbf{Low Risk:} WII $< 33$
     \item \textbf{Moderate Risk:} $33 \leq$ WII $< 66$
     \item \textbf{High Risk:} WII $\geq 66$
 \end{itemize}
+
+\subsection{Ethical Considerations and Data Limitations}
+Although the dataset is synthetic, ethical considerations remain relevant. All simulations were designed to avoid reproducing identifiable household-level patterns or socio-economic characteristics. The synthetic nature of the dataset ensures that no real individuals, households, or communities are represented. However, the following limitations apply:
+
+\begin{itemize}
+    \item The synthetic dataset may not capture the full variability, heterogeneity, or extremes present in real groundwater systems.
+    \item Model performance reported using synthetic data may differ when applied to real-world datasets.
+    \item Relationships embedded in the synthetic data are based on domain assumptions and may not reflect all real causal mechanisms.
+    \item The Water Insecurity Index is a constructed metric based on weighted hydrogeological and socio-economic factors, not empirically validated survey data.
+\end{itemize}
+
+These limitations highlight that the results should be interpreted as \textit{methodological demonstrations} rather than definitive empirical findings for the Kathmandu Valley. The primary contribution of this work is the development and validation of an integrated machine learning framework that can be applied to real observational data as it becomes available. Future work will aim to incorporate validated observational datasets and conduct field validation studies.
 
 \subsection{Class Distribution Analysis}
 Initial exploratory data analysis revealed a significant class imbalance. As shown in Table \ref{tab:distribution}, the 'Low' risk class dominates the dataset, while the 'High' risk class is rare.
