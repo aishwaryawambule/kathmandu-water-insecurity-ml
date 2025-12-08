@@ -2,7 +2,7 @@
 
 A machine learning framework for predicting household water insecurity in Kathmandu Valley using K-Means clustering and Random Forest classification.
 
-## 📋 Project Overview
+## Project Overview
 
 This project addresses the critical water crisis in Kathmandu Valley by developing a computational model that:
 - Identifies critical aquifer zones experiencing high groundwater stress using unsupervised clustering
@@ -16,7 +16,7 @@ This project addresses the critical water crisis in Kathmandu Valley by developi
 - **High Accuracy**: Achieves 81.25% accuracy with weighted F1-score of 0.81
 - **Feature Importance Analysis**: Identifies key drivers of water insecurity
 
-## 🏗️ Project Structure
+## Project Structure
 
 ```
 ml-proj/
@@ -28,7 +28,6 @@ ml-proj/
 │       ├── kathmandu_aquifer_clustered.csv
 │       └── kathmandu_household_with_cluster.csv
 ├── src/
-│   ├── data_generation.py           # Generate synthetic aquifer and household data
 │   ├── aquifer_clustering.py        # K-Means clustering of aquifer wells
 │   ├── merge_data.py                # Merge household and aquifer data
 │   ├── predict.py                   # Train Random Forest classifier
@@ -43,7 +42,7 @@ ml-proj/
 └── README.md
 ```
 
-## 🚀 Quick Start
+## Quick Start
 
 ### Prerequisites
 
@@ -78,11 +77,10 @@ python main.py
 ```
 
 This will:
-1. Generate synthetic aquifer and household data
-2. Perform K-Means clustering on aquifer wells
-3. Merge household data with aquifer cluster assignments
-4. Train Random Forest classifier
-5. Generate evaluation metrics and visualizations
+1.Perform K-Means clustering on aquifer wells
+2. Merge household data with aquifer cluster assignments
+3. Train Random Forest classifier
+4. Generate evaluation metrics and visualizations
 
 ### Making Predictions
 
@@ -113,7 +111,7 @@ Prediction: High Risk
 Aquifer Context: Depth 51.05m, Depletion 3.15m/yr
 ```
 
-## 📊 Dataset Description
+## Dataset Description
 
 ### Aquifer Dataset (500 wells)
 
@@ -149,22 +147,9 @@ Aquifer Context: Depth 51.05m, Depletion 3.15m/yr
   - Moderate Risk: 33-66
   - High Risk: 66-100
 
-## 🔬 Methodology
+## Methodology
 
-### 1. Data Generation (`data_generation.py`)
-
-Generates realistic synthetic data based on:
-- Hydrogeological patterns from ICIMOD and GWRDB data
-- Urban groundwater depletion trends
-- Household water access patterns in Kathmandu Valley
-
-**Key Parameters:**
-- 500 aquifer wells across 3 districts
-- 2000 households with varying water access
-- Depletion rates: 0.1 - 3.24 m/year
-- Water table depths: 0.2 - 60 m
-
-### 2. Aquifer Clustering (`aquifer_clustering.py`)
+### 1. Aquifer Clustering (`aquifer_clustering.py`)
 
 **Algorithm:** K-Means Clustering
 
@@ -185,7 +170,7 @@ Generates realistic synthetic data based on:
 - Calinski-Harabasz Index: 114.37
 - Davies-Bouldin Index: 1.7506
 
-### 3. Random Forest Classification (`predict.py`)
+### 2. Random Forest Classification (`predict.py`)
 
 **Model:** Random Forest Classifier with GridSearchCV
 
@@ -207,7 +192,7 @@ Generates realistic synthetic data based on:
 | Low | 0.81 | 0.85 | 0.83 | 177 |
 | Moderate | 0.82 | 0.81 | 0.82 | 204 |
 
-### 4. Feature Importance
+### 3. Feature Importance
 
 Top predictive features:
 1. **Water Table Depth** (35%)
@@ -216,7 +201,7 @@ Top predictive features:
 4. **Access to Piped Water** (12%)
 5. **Household Size** (7%)
 
-## 📈 Results
+## Results
 
 ### Scenario Testing
 
@@ -234,14 +219,14 @@ Three test cases validate real-world applicability:
 
 **Case 3:** Large household (8 members) with no piped water near critically depleted aquifer → **High Risk**
 
-## 🎯 Key Findings
+##  Key Findings
 
 1. **Aquifer depletion is the primary driver** of water insecurity (63% combined importance)
 2. **Infrastructure access matters:** Households with multiple water sources remain secure even in moderately stressed aquifers
 3. **Deep water tables + high depletion = critical risk:** Aquifers with depth >50m and depletion >3 m/yr require immediate intervention
 4. **Model generalizes well:** Cross-validation F1-score of 0.84 indicates stable performance
 
-## 🔧 Usage Examples
+##  Usage Examples
 
 ### Custom Prediction
 
@@ -265,7 +250,7 @@ print(f"Aquifer Depth: {aquifer_info['water_table_depth_m']:.2f}m")
 print(f"Depletion Rate: {aquifer_info['depletion_rate_m_per_year']:.2f}m/yr")
 ```
 
-## 📝 Research Paper
+##  Research Paper
 
 The complete methodology and results are documented in `paper.tex` (IEEE format).
 
@@ -274,24 +259,24 @@ The complete methodology and results are documented in `paper.tex` (IEEE format)
 pdflatex paper.tex
 ```
 
-## 🤝 Contributing
+##  Contributing
 
 This project was developed as part of academic research on urban water security and machine learning applications in environmental science.
 
-## 📚 References
+##  References
 
 - International Centre for Integrated Mountain Development (ICIMOD)
 - Groundwater Resources Development Board (GWRDB), Nepal
 - Kathmandu Upatyaka Khanepani Limited (KUKL)
 - PANGAEA Data Publisher
 
-## 📧 Contact
+## Contact
 
 **Author:** Aishwarya Rai  
 **Institution:** Softwarica College of IT & E-Commerce, Coventry University  
-**Email:** raia2@uni.coventry.ac.uk
+**Email:** raia39@uni.coventry.ac.uk
 
-## 📄 License
+## License
 
 This project is part of academic research. Please cite appropriately if using this work.
 
