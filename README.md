@@ -270,11 +270,6 @@ This project was developed as part of academic research on urban water security 
 - Kathmandu Upatyaka Khanepani Limited (KUKL)
 - PANGAEA Data Publisher
 
-## Contact
-
-**Author:** Aishwarya Rai  
-**Institution:** Softwarica College of IT & E-Commerce, Coventry University  
-**Email:** raia39@uni.coventry.ac.uk
 
 ## License
 
